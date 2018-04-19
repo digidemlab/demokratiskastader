@@ -1,6 +1,6 @@
 ---
 title: Demokratiska Städer
-timezone: UTC
+timezone: Europe/Stockholm
 collections:
   methods:
     title: Methods
@@ -51,7 +51,7 @@ t:
     links: Resources & Links
     button: Find your tool!
     tool-headline: I want to…
-baseurl: ''
+baseurl: 
 url: http://demokratiskastader.se
 author: Digidem Lab
 description: Verktyg och metoder för framtidens demokratiska städer.
