@@ -1,0 +1,68 @@
+//
+// images
+
+@mixin set-colored-bg-image($bgcolor, $bggradient, $bgimage){
+	background: linear-gradient(
+      rgba($bgcolor, $bggradient),
+      rgba($bgcolor, $bggradient)
+    ), url($bgimage);
+}
+
+.hero {
+  padding: 0;
+}
+
+.hero-wrap {
+//	min-width: 280px;
+	margin: auto;
+	position: relative;
+	background: #999;
+	// @include set-colored-bg-image($purple, 0.12, '../images/jpg/hero-village-desktop.jpg');
+	background-size: cover;
+	background-position: center center;
+	height: 37.5em;
+
+	@media screen and (max-width: $break-small) {
+		height: 17em;
+		background: #999;
+    // @include set-colored-bg-image($purple, 0.12, '../images/jpg/hero-village-mobile.jpg');
+    background-position: center center;
+	}
+}
+
+.hero-caption {
+	position:absolute;
+  z-index: 2;
+	top:70px;
+	left:0;
+	right:0;
+	bottom:10px;
+	overflow:auto;
+
+  @media screen and (max-width: $break-small) {
+    top: 5px;
+  }
+
+  &_content {
+    //display:table-cell;
+    vertical-align: middle;
+
+    .heading-hero {
+    	padding: 5rem;
+    	margin: 5rem;
+    	@media screen and (max-width: $break-small) {
+    		padding: 3rem 0;
+    		margin: 1.2rem;
+    	}
+    }
+  }
+}
+
+.hero-button {
+  top: -150px;
+  z-index: 2;
+  @media screen and (max-width: $break-small) {
+    top: 0px;
+  }
+
+}

@@ -1,0 +1,76 @@
+---
+title: Demokratiska Städer
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  methods:
+    title: Methods
+    output: true
+  tools:
+    title: Tools
+    output: true
+  themes:
+    title: Themes
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+    lang: en
+- scope:
+    path: ar
+    type: pages
+  values:
+    layout: page
+    lang: ar
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: tool
+    lang: en
+email: admin@digidemlab.org
+logo: "/public/logotyp.png"
+permalink: "/:title/"
+t:
+  en:
+    language: en
+    lang-code: en
+    dir: ltr
+    participants: Participants
+    preparations: Preparations
+    difficulty: Difficulty
+    back-button: Show me something else
+    links: Resources & Links
+    button: Find your tool!
+    tool-headline: I want to…
+baseurl: ''
+url: http://demokratiskastader.se
+author: Digidem Lab
+description: Verktyg och metoder för framtidens demokratiska städer.
+twitter:
+  username: digidemlab
+facebook:
+  publisher: digidemlab
+social:
+  links:
+  - https://twitter.com/digidemlab
+  - https://www.facebook.com/digidemlab
+  - https://www.instagram.com/digidemlab/
+  - https://github.com/digidemlab/demokratiskastader
+markdown: kramdown
+exclude:
+- ".sass-cache"
+- bower_components
+- path
+sass:
+  sass_dir: _sass
+plugins:
+- jekyll-seo-tag

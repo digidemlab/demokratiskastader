@@ -1,0 +1,108 @@
+---
+layout: global
+---
+
+<!--<div class="cover-color">-->
+  <div class="hero-wrap container-full-width">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-10 col-md-offset-1 text-center hero-caption">
+          <div class="hero-caption_content">
+            <h1 class="heading-hero">{{page.summary}}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-10 col-md-offset-1 text-center padding">
+        <a href="#tool-listing" class="button-cta hero-button">Hitta ditt verktyg</a>
+      </div>
+    </div>
+  </div>
+-->
+
+<!--</div>-->
+
+<div class="container">
+  <div class="tool-listing">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h2 class="heading-a -italic"><a name="tool-listing" class="clean-link">Vi vill…</a></h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+        <dl>
+          {% for item in site.themes %}
+
+              <dd>
+                <ul class="list-unstyled">
+                  <li class="tool-listing_item">
+               	    <a href="{{site.baseurl}}{{post.url}}">
+                      <div class="tool-listing_description">{{item.title}}</div>
+                      <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
+                    </a>
+                  </li>
+              </dd>
+
+          {% endfor %}
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-full-width -purple-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="heading-c">Metoder</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 col-md-4">
+        <div class="well well-lg">Metod osv</div>
+      </div>
+      <div class="col-sm-4 col-md-4">
+        <div class="well well-lg">Metod osv</div>
+      </div>
+      <div class="col-sm-4 col-md-4">
+        <div class="well well-lg">Metod osv</div>
+      </div>
+    </div>
+    <hr>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="heading-c">Verktyg</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-md-4">
+          <div class="well well-lg">Metod osv</div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <div class="well well-lg">Metod osv</div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <div class="well well-lg">Metod osv</div>
+        </div>
+      </div>
+      <hr>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2 class="heading-c">Resurser</h2>
+    </div>
+  </div>
+
+  <hr>
+</div>

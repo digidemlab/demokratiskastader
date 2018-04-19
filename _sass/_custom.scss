@@ -1,0 +1,77 @@
+
+body, html {
+  height: 100%;
+}
+
+img {
+  //width: 100%;
+  height: auto;
+}
+
+.padding {
+  margin-bottom: 1em;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.container-full-width {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+
+  &.-blue-light {
+    background-color: $blue-light;
+  }
+
+  &.-purple-light {
+    background-color: $purple-light;
+  }
+
+  &.-purple {
+    background-color: $purple;
+  }
+
+  &.-blue {
+    background-color: $blue;
+  }
+}
+
+.page-content {
+  margin: 1.5em 0 3em;
+
+  img {
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  li {
+    margin-bottom: 0.8em;
+  }
+}
+
+// Footer
+.footer {
+  background-color: $purple;
+  padding: 3.5em 0 5em;
+  margin-top: -0.5em;
+
+  @media screen and (min-width: $break-small) {
+    padding: 5em 0;
+  }
+}
+
+
+.shifted-30-up {
+  margin-top:-30px;
+}
+
+.shifted-15-up {
+  margin-top:-15px;
+}
+
+
+.shifted-10-up {
+  margin-top:-10px;
+}

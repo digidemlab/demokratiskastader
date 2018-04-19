@@ -1,0 +1,61 @@
+---
+layout: global
+---
+
+<div class="container">
+  <div class="row category-lead">
+    <div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
+      <p class="category-lead_text">{{page.categories[0]}} {{page.description}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-full-width -purple-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-md-offset-3 text-center">
+        <div class="icon-tool">
+        </div>
+        <div class="page-intro">
+          <h1 class="heading-a">{{page.title}}</h1>
+          <p class="summary">{{page.summary}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include content/shortfacts.html %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-md-offset-2">
+      <img class="image-tool" src="{{site.baseurl}}{{page.image}}">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+      {{content}}
+    </div>
+  </div>
+</div>
+
+{% include content/democat.html cat="happy" %}
+
+{% include content/resources.html %}
+
+
+{% if page.quote %}
+  {% include content/quote.html %}
+{% endif %}
+
+<div class="container">
+  <div class="row">
+  <div class="col-sm-12 text-center shifted-10-up">
+    <a class="button-cta -fixed tool-page" href="{{site.baseurl}}{% if page.lang == 'en'%}/{% else %}/ar{% endif %}/#tool-listing" role="button">{{site.t[page.lang].back-button}}</a>
+  </div>
+</div>
+</div>

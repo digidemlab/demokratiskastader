@@ -1,0 +1,72 @@
+//
+// Icons
+
+%icon {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+}
+
+.icon-triangle {
+  @extend %icon;
+  width: 33px;
+  height: 24px;
+  background-image: url(../../assets/images/svg/icon-triangle.svg);
+}
+
+.icon-tool {
+  @extend %icon;
+  width: 3.750em;
+  height: 3.750em;
+  background-image: url(../../assets/images/svg/icon-tool.svg);
+  margin-top: -2em;
+}
+
+.icon-quote {
+  @extend %icon;
+  height: 2.5em;
+  width: 1.688em;
+  background-image: url(../../assets/images/svg/icon-quote.svg);
+}
+
+.icon-hands {
+  @extend %icon;
+  height: 2.813em;
+  width: 4.250em;
+  margin: 1em 0;
+  background-image: url(../../assets/images/svg/icon-hands.svg);
+}
+
+.icon-thumb {
+  @extend %icon;
+  height: 3.5em;
+  width: 3.5em;
+  margin: 1em 0;
+  background-image: url(../../assets/images/svg/icon-thumb.svg);
+}
+
+.icon-clock {
+  @extend %icon;
+  height: 3.5em;
+  width: 3.5em;
+  margin: 1em 0;
+  background-image: url(../../assets/images/svg/icon-clock.svg);
+}
+
+.icon-shortfacts {
+  margin-bottom: -1em;
+  height: 3.125em;
+  width: 3.125em;
+
+  @media screen and (max-width: $break-medium) {
+    margin-bottom: -0.5em;
+  }
+}
+
+.icon-heart {
+  @extend %icon;
+  height: 3.5em;
+  width: 3.5em;
+  margin: 1em 0;
+  background-image: url(../../assets/images/svg/icon-heart.svg);
+}

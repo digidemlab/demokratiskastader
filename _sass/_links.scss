@@ -1,0 +1,176 @@
+//
+// Links and buttons
+
+.text-link,
+a {
+  color: $link-color;
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 0.05em 0em 0.15em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $link-color;
+    background-color: $link-hover-color;
+  }
+
+  &.-white {
+    color: $white;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $purple;
+      background-color: $purple-light;
+    }
+  }
+}
+
+// Call to action button
+.button-cta,
+%button-cta {
+  background-color: $blue;
+  border-radius: 5em;
+  color: $blue-light;
+  padding: 1.5em 3em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  border: solid 1px $blue;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $link-hover-color;
+    text-decoration: none;
+    color: $blue;
+    border-color: $link-color;
+    -webkit-box-shadow: 0 2px 0 0 $link-color;
+    -moz-box-shadow: 0 2px 0 0 $link-color;
+    box-shadow: 0 2px 0 0 $link-color;
+  }
+
+  @media screen and (max-width: $break-small) {
+    /*bottom: 0;
+    left: 0;*/
+    width: 100%;
+    /*border-radius: 0;*/
+    z-index: 2;
+    background-color: $blue;
+    color: $blue-light;
+  }
+
+  &.tool-page {
+    @media screen and (max-width: $break-small) {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      border-radius: 0;
+      z-index: 2;
+      background-color: $blue;
+      color: $blue-light;
+      padding: 0.9em 3em;
+    }
+  }
+}
+
+// Remove link styling
+.clean-link {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+
+// Tool listing
+.tool-listing {
+  margin: 2em 0;
+
+  &_item {
+    border: solid 1px $gray-light;
+    border-radius: 0.375em;
+    padding: 1em 1.5em 1.5em;
+    -webkit-box-shadow: 0 2px 0 0 $gray-light;
+    -moz-box-shadow: 0 2px 0 0 $gray-light;
+    box-shadow: 0 2px 0 0 $gray-light;
+    margin: 0.5em 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: $link-color;
+      background-color: $link-hover-color;
+      -webkit-box-shadow: 0 2px 0 0 $link-color;
+      -moz-box-shadow: 0 2px 0 0 $link-color;
+      box-shadow: 0 2px 0 0 $link-color;
+    }
+  }
+
+  &_description {
+    font-size: 1.250em;
+    line-height: 1.50em;
+    text-decoration: none;
+    font-family: $font-family-sans-serif;
+    color: $black;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 0.5em;
+
+    @media screen and (min-width: $break-medium) {
+      font-size: 1.5em;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  &_arrow {
+    position: relative;
+    bottom: 1em;
+    float: right;
+    height: 1em;
+    width: 1.188em;
+  }
+}
+
+
+.footer-link {
+  color: $white;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.05em 0.5em 0.15em;
+  margin: 0 0.5em;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $white;
+    text-decoration: none;
+    color: $purple;
+  }
+}
+
+.navbar-custom{
+  margin: 0.9em 0 0.9em;
+}
+
+.navbar-custom_item_link{
+  padding: 1.3em;
+}
