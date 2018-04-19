@@ -2,17 +2,17 @@
 title: Demokratiska Städer
 timezone: UTC
 collections:
-  posts:
-    title: Posts
-    output: true
   methods:
     title: Methods
     output: true
-  tools:
-    title: Tools
+  posts:
+    title: Posts
     output: true
   themes:
     title: Themes
+    output: true
+  tools:
+    title: Tools
     output: true
   uploads:
     title: Uploads
