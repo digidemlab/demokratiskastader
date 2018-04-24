@@ -65,35 +65,21 @@ layout: global
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-4 col-md-4">
-        <div class="well well-lg">Metod osv</div>
-      </div>
-      <div class="col-sm-4 col-md-4">
-        <div class="well well-lg">Metod osv</div>
-      </div>
-      <div class="col-sm-4 col-md-4">
-        <div class="well well-lg">Metod osv</div>
+      {% for post in site.methods %}
+        {% include teaser/teaser.html %}
+      {% endfor %}
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="heading-c">Verktyg</h2>
       </div>
     </div>
-    <hr>
-
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="heading-c">Verktyg</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 col-md-4">
-          <div class="well well-lg">Metod osv</div>
-        </div>
-        <div class="col-sm-4 col-md-4">
-          <div class="well well-lg">Metod osv</div>
-        </div>
-        <div class="col-sm-4 col-md-4">
-          <div class="well well-lg">Metod osv</div>
-        </div>
-      </div>
-      <hr>
+    <div class="row">
+      {% for post in site.tools %}
+        {% include teaser/teaser.html %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
@@ -103,6 +89,10 @@ layout: global
       <h2 class="heading-c">Resurser</h2>
     </div>
   </div>
-
+  <div class="row">
+    {% for post in site.posts %}
+      {% include teaser/teaser_list.html %}
+    {% endfor %}
+  </div>
   <hr>
 </div>

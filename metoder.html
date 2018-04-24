@@ -1,5 +1,7 @@
 ---
 layout: global
+title: Metoder
+ingress-text: Inledning om metoder
 ---
 
 <div class="container-full-width -blue-light">
@@ -14,13 +16,14 @@ layout: global
     </div>
   </div>
 </div>
+<p>&nbsp;</p>
 
-<div class="container">
-  <div class="page-content">
+<div class="container-full-width">
+  <div class="container">
     <div class="row">
-      <div class="content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-        {{content}}
-      </div>
+      {% for post in site.methods %}
+        {% include teaser/teaser.html %}
+      {% endfor %}
     </div>
   </div>
 </div>
