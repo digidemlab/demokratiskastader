@@ -2,12 +2,12 @@
 title: Demokratiska Städer
 timezone: Europe/Stockholm
 collections:
-  resources:
-    title: Resources
-    output: false
   posts:
     title: Posts
     output: true
+  resources:
+    title: Resources
+    output: false
   themes:
     title: Themes
     output: true

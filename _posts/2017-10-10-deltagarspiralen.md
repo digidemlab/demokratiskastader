@@ -1,8 +1,9 @@
 ---
 title: Deltagarspiralen
-excerpt: Nullam id dolor id nibh ultricies vehicula ut id elit.
+date: 2017-10-10 00:00:00 +02:00
 categories:
-  - metoder
-  - planering
+- metoder
+- planering
+excerpt: Nullam id dolor id nibh ultricies vehicula ut id elit.
 ---
 
