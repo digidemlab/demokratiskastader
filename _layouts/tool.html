@@ -4,8 +4,13 @@ layout: global
 
 <div class="container">
   <div class="row category-lead">
-    <div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
-      <p class="category-lead_text">{{page.categories[0]}} {{page.description}}</p>
+    <div class="col-sm-12">
+      <!-- Themes -->
+      {% for item in site.themes %}
+        {% if page.categories contains item.ref %}
+          <a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>&nbsp;&nbsp;
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </div>
@@ -14,11 +19,10 @@ layout: global
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6 col-md-offset-3 text-center">
-        <div class="icon-tool">
-        </div>
+
         <div class="page-intro">
           <h1 class="heading-a">{{page.title}}</h1>
-          <p class="summary">{{page.summary}}</p>
+          <p class="summary">{{page.ingress-text}}</p>
         </div>
       </div>
     </div>
@@ -43,10 +47,8 @@ layout: global
   </div>
 </div>
 
-{% include content/democat.html cat="happy" %}
 
 {% include content/resources.html %}
-
 
 {% if page.quote %}
   {% include content/quote.html %}

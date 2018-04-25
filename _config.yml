@@ -2,17 +2,14 @@
 title: Demokratiska Städer
 timezone: Europe/Stockholm
 collections:
-  methods:
-    title: Methods
-    output: true
+  resources:
+    title: Resources
+    output: false
   posts:
     title: Posts
     output: true
   themes:
     title: Themes
-    output: true
-  tools:
-    title: Tools
     output: true
   uploads:
     title: Uploads
@@ -23,19 +20,16 @@ defaults:
     type: pages
   values:
     layout: page
-    lang: en
-- scope:
-    path: ar
-    type: pages
-  values:
-    layout: page
-    lang: ar
 - scope:
     path: ''
     type: posts
   values:
     layout: tool
-    lang: en
+- scope:
+    path: ''
+    type: themes
+  values:
+    layout: theme
 email: admin@digidemlab.org
 logo: "/public/logotyp.png"
 permalink: "/:title/"
@@ -51,7 +45,7 @@ t:
     links: Resources & Links
     button: Find your tool!
     tool-headline: I want to…
-baseurl: 
+baseurl: ''
 url: http://demokratiskastader.se
 author: Digidem Lab
 description: Verktyg och metoder för framtidens demokratiska städer.

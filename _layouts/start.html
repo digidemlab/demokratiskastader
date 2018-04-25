@@ -39,17 +39,15 @@ layout: global
       <div class="col-sm-12 col-md-8 col-md-offset-2">
         <dl>
           {% for item in site.themes %}
-
-              <dd>
-                <ul class="list-unstyled">
-                  <li class="tool-listing_item">
-               	    <a href="{{site.baseurl}}{{post.url}}">
-                      <div class="tool-listing_description">{{item.title}}</div>
-                      <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
-                    </a>
-                  </li>
-              </dd>
-
+            <dd>
+              <ul class="list-unstyled">
+                <li class="tool-listing_item">
+             	    <a href="{{site.baseurl}}{{item.url}}">
+                    <div class="tool-listing_description">{{item.title}}</div>
+                    <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
+                  </a>
+                </li>
+            </dd>
           {% endfor %}
         </dl>
       </div>
@@ -65,7 +63,7 @@ layout: global
       </div>
     </div>
     <div class="row">
-      {% for post in site.methods %}
+      {% for post in site.categories.metoder %}
         {% include teaser/teaser.html %}
       {% endfor %}
     </div>
@@ -76,7 +74,7 @@ layout: global
       </div>
     </div>
     <div class="row">
-      {% for post in site.tools %}
+      {% for post in site.categories.verktyg %}
         {% include teaser/teaser.html %}
       {% endfor %}
     </div>
@@ -90,7 +88,7 @@ layout: global
     </div>
   </div>
   <div class="row">
-    {% for post in site.posts %}
+    {% for post in site.resources %}
       {% include teaser/teaser_list.html %}
     {% endfor %}
   </div>

@@ -1,0 +1,52 @@
+---
+layout: global
+---
+
+<div class="container-full-width -blue-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-md-offset-3 text-center">
+        <div class="page-intro">
+          <h1 class="heading-a">{{page.title}}</h1>
+          <p class="summary">{{page.ingress-text}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="page-content">
+    <div class="row">
+      <div class="content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+        {{content}}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-full-width">
+  <div class="container">
+    <div class="row">
+
+      <!-- Projects in Theme -->
+      {% if site.categories[page.ref] %}
+        {% for post in site.categories[page.ref] %}
+          {% include teaser/teaser.html %}
+        {% endfor %}
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    {% for post in site.resources %}
+      {% include teaser/teaser_list.html %}
+    {% endfor %}
+  </div>
+  <hr>
+</div>
