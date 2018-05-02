@@ -20,50 +20,51 @@ defaults:
     type: pages
   values:
     layout: page
-    excerpt:
-    ingress-text:
+    excerpt: 
+    ingress-text: 
 - scope:
     path: ''
     type: resources
   values:
-    author:
-    excerpt:
-    tags:
-    themes: [""]
+    author: 
+    excerpt: 
+    tags: 
+    themes:
+    - ''
 - scope:
     path: ''
     type: posts
   values:
     layout: tool
-    categories:
-    tags:
-    excerpt:
-    ingress-text:
-    image:
-    time:
-    resources:
-    difficulty:
+    categories: 
+    tags: 
+    excerpt: 
+    ingress-text: 
+    image: 
+    time: 
+    resources: 
+    difficulty: 
     readmore:
     - headline: Läs mer
       links:
-      - title:
-        url:
+      - title: 
+        url: 
     - headline: Testa
       links:
-      - title:
-        url:
+      - title: 
+        url: 
     - headline: Kontakt
       links:
-      - title:
-        url:
-    quote:
-    source:
+      - title: 
+        url: 
+    quote: 
+    source: 
 - scope:
     path: ''
     type: themes
   values:
     layout: theme
-    ref:
+    ref: 
 email: admin@digidemlab.org
 logo: "/public/logotyp.png"
 permalink: "/:title/"
