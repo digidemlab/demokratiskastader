@@ -25,12 +25,12 @@ layout: global
   </div>
 </div>
 
-{% if site.categories[page.ref] %}
+{% if site.tags[page.ref] %}
   <div class="container-full-width">
     <div class="container">
       <div class="row">
         <!-- Tools & Methods in Theme -->
-        {% for post in site.categories[page.ref] %}
+        {% for post in site.tags[page.ref] %}
           {% include teaser/teaser.html %}
         {% endfor %}
       </div>
@@ -40,7 +40,7 @@ layout: global
     <div class="row">
       <!-- Resources in Theme -->
       {% for post in site.resources %}
-        {% if post.categories contains page.ref %}
+        {% if post.tags contains page.ref %}
           {% include teaser/teaser_list.html %}
         {% endif %}
       {% endfor %}

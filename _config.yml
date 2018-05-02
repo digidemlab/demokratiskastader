@@ -28,13 +28,14 @@ defaults:
   values:
     author:
     excerpt:
-    categories:
+    tags:
 - scope:
     path: ''
     type: posts
   values:
     layout: tool
-    categories: 
+    categories:
+    tags:
     excerpt:
     ingress-text:
     image:
