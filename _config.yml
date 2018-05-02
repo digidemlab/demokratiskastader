@@ -28,16 +28,19 @@ defaults:
   values:
     author:
     excerpt:
-    tags:
-    themes: ["",""]
+    themes:
+    - ''
+    - ''
 - scope:
     path: ''
     type: posts
   values:
     layout: tool
     categories:
-    tags:
     excerpt:
+    themes:
+    - ''
+    - ''
     ingress-text:
     image:
     time:
