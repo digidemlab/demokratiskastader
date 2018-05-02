@@ -6,5 +6,8 @@ tags:
 - medborgarforslag
 author: Nesta
 excerpt: Donec ullamcorper nulla non metus auctor fringilla.
+themes:
+- Genomföra en medborgarbudget
+- Genomföra medborgarförslag
 ---
 
