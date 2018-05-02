@@ -20,31 +20,51 @@ defaults:
     type: pages
   values:
     layout: page
+    excerpt:
+    ingress-text:
+- scope:
+    path: ''
+    type: resources
+  values:
+    author:
+    excerpt:
+    categories:
 - scope:
     path: ''
     type: posts
   values:
     layout: tool
+    categories: 
+    excerpt:
+    ingress-text:
+    image:
+    time:
+    resources:
+    difficulty:
+    readmore:
+    - headline: Läs mer
+      links:
+      - title:
+        url:
+    - headline: Testa
+      links:
+      - title:
+        url:
+    - headline: Kontakt
+      links:
+      - title:
+        url:
+    quote:
+    source:
 - scope:
     path: ''
     type: themes
   values:
     layout: theme
+    ref:
 email: admin@digidemlab.org
 logo: "/public/logotyp.png"
 permalink: "/:title/"
-t:
-  en:
-    language: en
-    lang-code: en
-    dir: ltr
-    participants: Participants
-    preparations: Preparations
-    difficulty: Difficulty
-    back-button: Show me something else
-    links: Resources & Links
-    button: Find your tool!
-    tool-headline: I want to…
 baseurl: ''
 url: http://demokratiskastader.se
 author: Digidem Lab
