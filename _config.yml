@@ -29,7 +29,7 @@ defaults:
     author:
     excerpt:
     tags:
-    themes: [""]
+    themes: ["",""]
 - scope:
     path: ''
     type: posts
