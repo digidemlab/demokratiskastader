@@ -3,7 +3,8 @@ title: Medborgarjury
 date: 2017-10-10 00:00:00 +02:00
 categories:
 - metoder
-excerpt: Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+excerpt: 'Slumpvisvalda medborgare fattar välgrundade beslut och bidrar till bredare
+  demografisk representation '
 ingress-text: 'Medborgarjurys breddar demokratin och fungerar som ett komplement för
   att hjälpa valda representanter att fatta bra beslut som är grundade i folkets vilja. '
 readmore:
@@ -30,7 +31,7 @@ themes:
 
 ## Vad är det och varför använda det?
 
-En medborgarjury är en grupp slumpvis valda demografiskt representativa medborgare som bjuds in till att se över och diskutera förslag för kommunen. Juryn tränas i kritiskt tänkande, får bakgrundsinformation och tillgång till experter samt förespråkare av olika perspektiv och fattar därför välinformerade beslut.  
+En medborgarjury är en grupp slumpvis valda demografiskt representativa medborgare som bjuds in till att se över och diskutera förslag för kommunen. Juryn tränas i kritiskt tänkande, får bakgrundsinformation och tillgång till experter samt förespråkare av olika perspektiv och fattar därför välgrundade beslut.  
 
 Medborgarjurys är ett sätt att vitalisera demokratin och öka kommuninvånares kunskaper och tillit kring det politiska arbetet i staden. Det breddar medborgarprocesser från att endast locka välorganiserade grupper, lobbys eller resursstarka individer till att också inkludera människor som vanligtvis inte deltar eller känner sig delaktiga i beslutsfattande. Jurys kan vara jätte bra att använda vid frågor som politiker har svårt att diskutera eller besluta kring på grund av polarisering eller brist på relevanta erfarenheter. Medborgarjurys fungerar som ett komplement för att hjälpa valda representanter att fatta bra beslut som är grundade i folkets vilja. 
 
