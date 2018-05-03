@@ -9,12 +9,14 @@ readmore:
   links:
   - title: Steg för steg manual för implementering av medborgarjurys i kombination
       med digitala plattformar(Eng)
-    url: manual1_hybriddemocracy.pdf
+    url: https://sorteopolitico.files.wordpress.com/2017/12/manual1_hybriddemocracy.pdf
   - title: En guide för hur du implementerar slumpvis representation för större jämlikhet
       (Eng)
     url: https://static1.squarespace.com/static/55af0533e4b04fd6bca65bc8/t/5aafb4b66d2a7312c182b69d/1521464506233/Lotto_Paper_v1.1.2.pdf
   - title: En handbok i hur du använder medborgarjurys (Eng)
     url: http://activedemocracy.net/articles/cj_handbook.pdf
+  - title: En detaljerad manual i hur medborgarjurys ska organiseras (Eng)
+    url: https://sorteopolitico.files.wordpress.com/2017/12/manual1_hybriddemocracy.pdf
 - headline: Case
   links:
   - title: En artikel om hur det ska implementeras i Madrid stad (Sp)
