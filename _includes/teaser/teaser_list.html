@@ -1,15 +1,10 @@
 <div class="col-sm-6 padding">
-  <a href="{{ site.baseurl }}{{ post.url }}">
+  <a href="{{ site.baseurl }}{{ post.link }}">
     <h3>{{ post.title }}</h3>
   </a>
   <p>
     <small>{{ post.author }}&nbsp;{{ post.date | date: "%-d %B %Y" }}</small><br>
     {{ post.excerpt }}
   </p>
-  {% if post.links %}
-    {% for link in post.links %}
-      <a class="btn btn-link" href="{{ link.url }}">{{ link.name }}</a>
-    {% endfor %}
-  {% endif %}
 </div>
 {% cycle '', '<div class="clearfix"></div>' %}
