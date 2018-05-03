@@ -28,9 +28,13 @@ themes:
 
 ## Vad är det och varför använda det?
 
-En medborgarjury är en grupp slumpvis valda demografiskt representativa medborgare som bjuds in till att se över och diskutera förslag för kommunen. Juryn tränas i kritiskt tänkande, får bakgrundsinformation och tillgång till experter och förespråkare av olika sidor. 
+En medborgarjury är en grupp slumpvis valda demografiskt representativa medborgare som bjuds in till att se över och diskutera förslag för kommunen. Juryn tränas i kritiskt tänkande, får bakgrundsinformation och tillgång till experter samt förespråkare av olika perspektiv och fattar därför välinformerade beslut.  
 
-Medborgarjurys är ett sätt att vitalisera demokratin och öka kommuninvånares kunskaper och tillit kring det politiska arbetet i staden. Det breddar representationen från att endast röra experter, välorganiserade grupper, lobbys eller resursstarka individer till att också inkludera människor som vanligtvis inte deltar eller känner sig delaktiga i beslutsfattande. Jurys kan vara jätte bra att använda vid frågor som politiker har svårt att diskutera eller besluta kring på grund av polarisering eller brist på relevanta erfarenheter. 
-
+Medborgarjurys är ett sätt att vitalisera demokratin och öka kommuninvånares kunskaper och tillit kring det politiska arbetet i staden. Det breddar medborgarprocesser från att endast locka välorganiserade grupper, lobbys eller resursstarka individer till att också inkludera människor som vanligtvis inte deltar eller känner sig delaktiga i beslutsfattande. Jurys kan vara jätte bra att använda vid frågor som politiker har svårt att diskutera eller besluta kring på grund av polarisering eller brist på relevanta erfarenheter. Medborgarjurys fungerar som ett komplement för att hjälpa valda representanter att fatta bra beslut som är grundade i folkets vilja. 
 
 ## Hur används det?
+♦ Det sammanför omkring 40 slumpvis valda demografiskt representativa medborgare i en period på ett par månader med en mötestid på totalt 40 timmar, utspridda på heldagar ungefär varannan vecka 
+♦ Juryn får detaljerad och balanserad information kring frågan från experter som tjänstepersoner, forskare, civilsamhälle, brukare, boende och andra relevanta aktörer och kan ställa frågor samt söka ytterligare information de bedömer som relevant
+♦ Det kan organiseras i samråd med en styrgrupp eller intressentgrupp som säkerställer att juryns process är transparent och att experterna är trovärdiga 
+♦ Juryn har en neutral facilitator som säkerställer en god gruppdynamik som ger plats åt alla att tala, att gruppen får all information de behöver och att de uppfyller sitt syfte 
+♦ Juryn förbereder en rapport med sina rekommendationer och möjliga skilda åsikter i frågan som presenteras till kommunstyrelsen eller relevant nämnd
