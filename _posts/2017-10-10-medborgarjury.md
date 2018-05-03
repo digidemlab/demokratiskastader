@@ -20,10 +20,12 @@ readmore:
     url: https://sorteopolitico.files.wordpress.com/2017/12/manual1_hybriddemocracy.pdf
 - headline: Case
   links:
-  - title: En artikel om hur det ska implementeras i Madrid stad (Sp)
+  - title: Madrid stad inför en permanent funktion för medborgarjurys(Sp)
     url: http://www.lavanguardia.com/local/madrid/20180323/441861418487/el-observatorio-de-la-ciudad-estara-formado-por-vecinos-elegidos-por-sorteo-que-asesoraran-al-ayuntamiento.html
-  - title: Lärdomar från medborgarjury i södra Australien (Eng)
+  - title: Södra Australien utvärderar jury kring kärnavfall(Eng)
     url: https://www.newdemocracy.com.au/research/research-notes/432-learnings-nuclear-jury
+  - title: Irland använder medborgarjury i abortlagstiftning (Eng)
+    url: https://vimeo.com/246689508
 themes:
 - Hitta nya former för medborgardeltagande
 - Genomföra medborgarförslag
