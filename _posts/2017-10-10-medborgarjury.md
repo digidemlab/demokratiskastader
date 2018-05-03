@@ -26,3 +26,11 @@ themes:
 - Genomföra medborgarförslag
 ---
 
+## Vad är det och varför använda det?
+
+En medborgarjury är en grupp slumpvis valda demografiskt representativa medborgare som bjuds in till att se över och diskutera förslag för kommunen. Juryn tränas i kritiskt tänkande, får bakgrundsinformation och tillgång till experter och förespråkare av olika sidor. 
+
+Medborgarjurys är ett sätt att vitalisera demokratin och öka kommuninvånares kunskaper och tillit kring det politiska arbetet i staden. Det breddar representationen från att endast röra experter, välorganiserade grupper, lobbys eller resursstarka individer till att också inkludera människor som vanligtvis inte deltar eller känner sig delaktiga i beslutsfattande. Jurys kan vara jätte bra att använda vid frågor som politiker har svårt att diskutera eller besluta kring på grund av polarisering eller brist på relevanta erfarenheter. 
+
+
+## Hur används det?
