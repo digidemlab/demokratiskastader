@@ -3,7 +3,7 @@ title: Medborgarjury
 date: 2017-10-10 00:00:00 +02:00
 categories:
 - metoder
-excerpt: 'Slumpvisvalda medborgare fattar välgrundade beslut och bidrar till bredare
+excerpt: 'Slumpvis valda medborgare fattar välgrundade beslut och bidrar till bredare
   demografisk representation '
 ingress-text: 'Medborgarjurys breddar demokratin och fungerar som ett komplement för
   att hjälpa valda representanter att fatta bra beslut som är grundade i folkets vilja. '
