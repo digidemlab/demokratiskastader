@@ -17,7 +17,7 @@ readmore:
   - title: Hur du ska använda medborgarjurys (Eng)
     url: http://activedemocracy.net/articles/cj_handbook.pdf
   - title: En detaljerad manual i hur medborgarjurys ska organiseras (Eng)
-    url: https://sorteopolitico.files.wordpress.com/2017/12/manual1_hybriddemocracy.pdf
+    url: https://sorteopolitico.files.wordpress.com/2017/12/manual2_policy-juries.pdf
 - headline: Case
   links:
   - title: Madrid stad inför en permanent funktion för medborgarjurys(Sp)
@@ -26,6 +26,7 @@ readmore:
     url: https://www.newdemocracy.com.au/research/research-notes/432-learnings-nuclear-jury
   - title: Irland använder medborgarjury i abortlagstiftning (Eng)
     url: https://vimeo.com/246689508
+- headline: Kontakt
 themes:
 - Hitta nya former för medborgardeltagande
 - Genomföra medborgarförslag
