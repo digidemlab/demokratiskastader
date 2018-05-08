@@ -31,6 +31,15 @@ $black:                 #000 !default;
 $white:                 #fff    !default;
 $yellow:                #ffff00 !default;
 
+$grey-base:            #262626 !default;
+$grey-light:           #313131 !default;
+
+$blue1: #7be2d6;
+$blue2: #8db0c1;
+
+$purple1: #c72ba6;
+$purple2: #9716f4;
+
 
 //== Scaffolding
 //
@@ -39,7 +48,7 @@ $yellow:                #ffff00 !default;
 //** Background color for `<body>`.
 $body-bg:               #fff !default;
 //** Global text color on `<body>`.
-$text-color:            $gray-dark !default;
+$text-color:            $black !default;
 
 //** Global textual link color.
 $link-color:            $blue !default;
@@ -365,7 +374,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    50px !default;
+$navbar-height:                    120px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
@@ -767,8 +776,8 @@ $thumbnail-caption-padding:   9px !default;
 //
 //##
 
-$well-bg:                     #f5f5f5 !default;
-$well-border:                 darken($well-bg, 7%) !default;
+$well-bg:                     $white !default;
+$well-border:                 transparent !default;
 
 
 //== Badges

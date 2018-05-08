@@ -21,8 +21,14 @@ img {
   padding-left: 0px;
   padding-right: 0px;
 
-  &.-blue-light {
-    background-color: $blue-light;
+  &.-gray {
+    color: $white;
+    background-color: $grey-base;
+  }
+
+  &.-gray-light {
+    color: $gray-base;
+    background-color: $grey-light;
   }
 
   &.-purple-light {
@@ -51,9 +57,24 @@ img {
   }
 }
 
+.gradient {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+
+  &.-blue {
+    background: linear-gradient(to bottom right, $blue1, $blue2);
+  }
+
+  &.-purple {
+    background: linear-gradient(to bottom right, $purple1, $purple2);
+  }
+}
+
 // Footer
 .footer {
-  background-color: $purple;
+  background-color: $grey-base;
   padding: 3.5em 0 5em;
   margin-top: -0.5em;
 

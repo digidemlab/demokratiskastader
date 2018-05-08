@@ -1,18 +1,18 @@
 <div class="col-sm-{% if forloop.length < 3 %}6{% else %}4{% endif %} padding">
   <div class="well">
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <a href="{{ site.baseurl }}{{ post.url }}">
-      <h3>{{ post.title }}</h3>
-    </a>
-      <p class="hidden-xs">
-        {{ post.excerpt }}
-      </p>
-      {% if post.links %}
-        {% for link in post.links %}
-          <a class="btn btn-link" href="{{ link.url }}">{{ link.name }}</a>
-        {% endfor %}
-      {% endif %}
+    <div class="gradient -blue">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h3>{{ post.title }}</h3>
+      </a>
+    </div>
+    <p class="hidden-xs">
+      {{ post.excerpt }}
+    </p>
+    {% if post.links %}
+      {% for link in post.links %}
+        <a class="btn btn-link" href="{{ link.url }}">{{ link.name }}</a>
+      {% endfor %}
+    {% endif %}
   </div>
 </div>
 {% cycle '', '', '<div class="clearfix"></div>' %}

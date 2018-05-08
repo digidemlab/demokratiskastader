@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 .header {
-  background-color: $purple;
+  background-color: none;
 }
 
 .navbar-custom {
@@ -15,15 +15,14 @@
 
     &_link {
       color: $white;
+      text-transform: uppercase;
       text-decoration: none;
-      padding: 2em;
 
       &:hover,
       &:focus,
       &:active {
-        color: $purple;
-        background-color: $white;
-        text-decoration: none;
+        color: $white;
+        background-color: $black;
       }
     }
   }
