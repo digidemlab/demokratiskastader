@@ -1,9 +1,10 @@
 ---
-title: Digital Democracy
-date: 2017-10-10 00:00:00 +02:00
+title: 'Digital Democracy: The Tools Transforming Political Engagement'
+date: 2017-02-23 00:00:00 +01:00
 link: https://www.nesta.org.uk/publications/digital-democracy-tools-transforming-political-engagement
 author: Nesta
-excerpt: Donec ullamcorper nulla non metus auctor fringilla.
+excerpt: Nesta studerar flera nationella exempel (Spanien, Island, Brasil) och presenterar
+  metoderna och verktygen de använder
 themes:
 - Genomföra en medborgarbudget
 - Genomföra medborgarförslag
