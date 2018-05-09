@@ -28,6 +28,11 @@ readmore:
   - title: Irland använder medborgarjury i abortlagstiftning (Eng)
     url: https://vimeo.com/246689508
 - headline: Kontakt
+quote: Statistiken säger att när vi väljer slumpmässigt  med tillräckligt många faktorer
+  inräknade kan vi uppnå en representation av helheten, alltså en gupp som speglar
+  befolkningens mångfald. När vi genomförde G1000 i Madrid deltog personer som aldrig
+  varit med tidigare
+source: Yago Bermejo Abati, Projektledare för Medialab Prado
 themes:
 - Hitta nya former för medborgardeltagande
 - Genomföra medborgarförslag
