@@ -1,18 +1,13 @@
-<div class="col-sm-{% if forloop.length < 3 %}6{% else %}4{% endif %} padding">
-  <div class="well">
-    <div class="gradient -blue">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h3>{{ post.title }}</h3>
-      </a>
-    </div>
-    <p class="hidden-xs">
-      {{ post.excerpt }}
-    </p>
-    {% if post.links %}
-      {% for link in post.links %}
-        <a class="btn btn-link" href="{{ link.url }}">{{ link.name }}</a>
-      {% endfor %}
-    {% endif %}
+<div class="col-sm-6 col-lg-4 mb-3">
+  <div class="card h-100">
+    <img class="card-img-top" src="/assets/images/png/gradient.png" alt="Card image cap">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      <div class="card-img-overlay">
+        <h5 class="card-title">{{ post.title }}</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">{{ post.excerpt }}</p>
+      </div>
+    </a>
   </div>
 </div>
-{% cycle '', '', '<div class="clearfix"></div>' %}

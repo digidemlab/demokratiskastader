@@ -57,7 +57,7 @@ layout: global
       </div>
     </div>
     <div class="row">
-      {% for post in site.categories.metoder %}
+      {% for post in site.categories.metoder limit:3 %}
         {% include teaser/teaser.html %}
       {% endfor %}
     </div>
@@ -68,7 +68,7 @@ layout: global
       </div>
     </div>
     <div class="row">
-      {% for post in site.categories.verktyg %}
+      {% for post in site.categories.verktyg limit:3%}
         {% include teaser/teaser.html %}
       {% endfor %}
     </div>
