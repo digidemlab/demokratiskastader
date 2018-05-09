@@ -1,6 +1,8 @@
 ---
 title: DemocracyOS
 date: 2018-05-09 08:30:00 +02:00
+categories:
+- verktyg
 excerpt: Den första moderna demokrativerktyget
 ingress-text: DemocracyOS är ett enkelt verktyg för att sätta upp en omröstning och
   få medborgare att debattera på ett projekt eller ett lagförslag
@@ -20,7 +22,8 @@ readmore:
     url: https://participez.nanterre.fr/campagne
   - title: Starta din egen *Democracy* nu
     url: https://app.democracyos.org/
-- links:
+- headline: Kontakt
+  links:
   - title: Digidem Lab kan hjälpa dig att sätta upp DemocracyOS på din egen server
       eller en molntjänst
 themes:
