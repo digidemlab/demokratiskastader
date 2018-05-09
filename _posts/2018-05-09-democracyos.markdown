@@ -23,7 +23,7 @@ readmore:
   links:
   - title: Participez Nanterre (på franska)
     url: https://participez.nanterre.fr/campagne
-  - title: Starta din egen *Democracy* nu
+  - title: Starta din egen "Democracy" nu
     url: https://app.democracyos.org/
 - headline: Kontakt
   links:
