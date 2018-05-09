@@ -29,8 +29,8 @@ readmore:
     url: https://vimeo.com/246689508
 - headline: Kontakt
 quote: Jag tror att vi aldrig hade kommit dit vi är idag med liberaliseringen av abortlagarna
-  i Irland om det inte var för medborgarjuryn. Jag att det annars hade tagit många
-  år tills vi kommit dit, om vi ens hade kommit dit
+  i Irland om det inte varit för medborgarjuryn. Jag tror att det annars hade tagit
+  många år tills vi kommit dit, om vi ens hade kommit dit
 source: Kate O´Conell, politiker i Irlands styrande parti
 themes:
 - Hitta nya former för medborgardeltagande
