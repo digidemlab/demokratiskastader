@@ -4,38 +4,31 @@
 
 <header>
 
-    <nav class="navbar navbar-transparent">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/png/logotyp.png" width="250" height="70" class="d-inline-block align-top"></a>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/png/logotyp.png" width="250" height="70" class="d-inline-block align-top"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="navbar-custom_item_link dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vi vill <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                {% for item in site.themes %}
-                  <li><a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a></li>
-                {% endfor %}
-              </ul>
-            </li>
-            <li class="navbar-custom_item_link"><a href="{{site.baseurl}}/verktyg">Verktyg</a></li>
-            <li class="navbar-custom_item_link"><a href="{{site.baseurl}}/metoder">Metoder</a></li>
-            <li class="navbar-custom_item_link"><a href="{{site.baseurl}}/resurser">Resurser</a></li>
-            <li class="navbar-custom_item_link"><a href="{{site.baseurl}}/om">Om</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Vi vill
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% for item in site.themes %}
+              <a class="dropdown-item" href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
+            {% endfor %}
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="{{site.baseurl}}/verktyg">Verktyg</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{site.baseurl}}/metoder">Metoder</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{site.baseurl}}/resurser">Resurser</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{site.baseurl}}/om">Om</a></li>
+      </ul>
+    </div>
+  </nav>
 
 </header>
 

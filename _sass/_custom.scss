@@ -78,7 +78,7 @@ img {
   padding: 3.5em 0 5em;
   margin-top: -0.5em;
 
-  @media screen and (min-width: $break-small) {
+  @include media-breakpoint-up(sm) {
     padding: 5em 0;
   }
 }

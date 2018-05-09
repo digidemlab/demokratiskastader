@@ -58,7 +58,7 @@
   height: 3.125em;
   width: 3.125em;
 
-  @media screen and (max-width: $break-medium) {
+  @include media-breakpoint-down(md) {
     margin-bottom: -0.5em;
   }
 }

@@ -17,7 +17,7 @@
   color: $white;
   text-shadow: 0 0 1em #000;
 
-  @media screen and (min-width: $break-large) {
+  @include media-breakpoint-up(lg) {
     font-size: 3em;
   }
 }
@@ -36,7 +36,7 @@
     font-style: italic;
   }
 
-  @media screen and (min-width: $break-medium) {
+  @include media-breakpoint-up(md) {
     font-size: 3em;
   }
 }
@@ -52,7 +52,7 @@
     color: $white;
   }
 
-  @media screen and (min-width: $break-medium) {
+  @include media-breakpoint-up(md) {
     font-size: 2.5em;
   }
 }
@@ -75,7 +75,7 @@
     font-style: italic;
   }
 
-  @media screen and (min-width: $break-medium) {
+  @include media-breakpoint-up(md) {
     font-size: 2em;
   }
 }
@@ -90,7 +90,7 @@ ol,
   line-height: 1.750em;
   margin-bottom: 1.125em;
   color: $black;
-  
+
   &.-white {
     color: $white;
   }
@@ -103,12 +103,12 @@ ol,
     color: $purple;
   }
 
-  @media screen and (min-width: $break-medium) {
+  @include media-breakpoint-up(md) {
     font-size: 1.375em;
   }
 
   &.-small {
-    @media screen and (min-width: $break-medium) {
+    @include media-breakpoint-up(md) {
       font-size: 1.250em;
       line-height: 1.750em;
     }

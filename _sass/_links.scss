@@ -56,7 +56,7 @@ a {
     box-shadow: 0 2px 0 0 $link-color;
   }
 
-  @media screen and (max-width: $break-small) {
+  @include media-breakpoint-down(sm) {
     /*bottom: 0;
     left: 0;*/
     width: 100%;
@@ -67,7 +67,7 @@ a {
   }
 
   &.tool-page {
-    @media screen and (max-width: $break-small) {
+    @include media-breakpoint-down(sm) {
       position: fixed;
       bottom: 0;
       left: 0;
@@ -131,7 +131,7 @@ a {
     font-weight: normal;
     margin-bottom: 0.5em;
 
-    @media screen and (min-width: $break-medium) {
+    @include media-breakpoint-up(md) {
       font-size: 1.5em;
     }
   }
