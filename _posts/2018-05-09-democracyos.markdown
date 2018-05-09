@@ -6,6 +6,7 @@ categories:
 excerpt: Den första moderna demokrativerktyget
 ingress-text: DemocracyOS är ett enkelt verktyg för att sätta upp en omröstning och
   få medborgare att debattera på ett projekt eller ett lagförslag
+image: "/uploads/democracy-os.png"
 time: 15 minutes
 costs: Använd den molnversion eller sätt upp på din egen server
 difficulty: Enkelt
@@ -16,6 +17,8 @@ readmore:
     url: http://democracyos.org
   - title: Dokumentation
     url: http://docs.democracyos.org
+  - title: Lista av lokala DemocracyOS föreningar
+    url: https://website-democracyos.herokuapp.com/democracies
 - headline: Testa
   links:
   - title: Participez Nanterre (på franska)
@@ -34,7 +37,7 @@ themes:
 
 ## Vad är det och varför använda det?
 
-DemocracyOS är en av de första avancerade digitala demokrativerktygen. Utvecklad av den Partido de la Red i Argentina sedan 2013, den tillåter medborgare att diskutera om ett lagförslag eller ett projekt och att rösta.
+DemocracyOS är en av de första avancerade digitala demokrativerktygen. Utvecklad av den Partido de la Red i Argentina sedan 2012, den tillåter medborgare att diskutera om ett lagförslag eller ett projekt och att rösta.
 
 ## Hur kan jag använda det
 
