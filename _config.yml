@@ -42,7 +42,7 @@ defaults:
     ingress-text: 
     image: 
     time: 
-    resources: 
+    costs: 
     difficulty: 
     readmore:
     - headline: Läs mer
