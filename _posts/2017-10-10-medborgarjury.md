@@ -28,10 +28,10 @@ readmore:
   - title: Irland använder medborgarjury i abortlagstiftning (Eng)
     url: https://vimeo.com/246689508
 - headline: Kontakt
-quote: Statistiken säger att när vi väljer slumpmässigt  med tillräckligt många faktorer
-  inräknade kan vi uppnå en representation av helheten, alltså en gupp som speglar
-  befolkningens mångfald
-source: Yago Bermejo Abati, Projektledare för Medialab Prado
+quote: Jag tror att vi aldrig hade kommit dit vi är idag med liberaliseringen av abortlagarna
+  i Irland om det inte var för medborgarjuryn. Jag att det annars hade tagit många
+  år tills vi kommit dit, om vi ens hade kommit dit
+source: Kate O´Conell, politiker i Irlands styrande parti
 themes:
 - Hitta nya former för medborgardeltagande
 - Genomföra medborgarförslag
