@@ -2,9 +2,9 @@
   <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">
     <div class="card h-100">
       <div class="rounded-top card-bg-overlay card-bg-{{post.categories[0]}} card-bg-{{post.categories[0]}}-{% cycle 'odd', 'even' %} d-flex align-content-center flex-wrap">
-        <h5 class="card-title text-center w-100 mb-0">{{ post.title }}</h5>
+        <h5 class="card-title text-center w-100 mb-0 align-self-center -white">{{ post.title }}</h5>
       </div>
-      <div class="card-body">
+      <div class="card-body align-self-center">
         <p class="card-text">{{ post.excerpt }}</p>
       </div>
     </div>

@@ -97,56 +97,56 @@
 
 // Tool listing
 .tool-listing {
-  margin: 2em 0;
+  padding: 7.5rem 0rem 15.5rem;
 
   &_item {
     display: block;
     border: solid 1px $gray-light;
     border-radius: 0.375em;
-    padding: 1em 1.5em 1.5em;
+    padding: 2.75rem 3rem 2.75rem 3rem;
     -webkit-box-shadow: 0 2px 0 0 $gray-light;
     -moz-box-shadow: 0 2px 0 0 $gray-light;
     box-shadow: 0 2px 0 0 $gray-light;
     margin: 0.5em 0;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    vertical-align: middle;
 
     &:hover,
     &:focus,
     &:active {
+
+      .tool-listing_arrow {
+        filter: invert(100%);
+      }
+
       color: $white;
       border-color: $link-color;
       background-color: $grey-base;
+      text-decoration: none;
       -webkit-box-shadow: 0 2px 0 0 $link-color;
       -moz-box-shadow: 0 2px 0 0 $link-color;
       box-shadow: 0 2px 0 0 $link-color;
     }
   }
 
-  &_description {
+  font-size: $font-size-h3;
+  line-height: 1.50em;
+  text-decoration: none;
+  font-family: $font-family-sans-serif;
+  color: $black;
+  margin: 0;
+  font-weight: normal;
+
+  @include media-breakpoint-up(md) {
     font-size: $font-size-h3;
-    line-height: 1.50em;
-    text-decoration: none;
-    font-family: $font-family-sans-serif;
-    color: $black;
-    font-weight: normal;
-    margin-bottom: 0.5em;
-
-    @include media-breakpoint-up(md) {
-      font-size: 1.5em;
-    }
-  }
-
-  a {
-    text-decoration: none;
   }
 
   &_arrow {
     position: relative;
-    bottom: 1em;
     float: right;
-    height: 1em;
-    width: 1.188em;
+    height: 1.875rem;
+    width: 1.25rem;
   }
 }
 
@@ -165,6 +165,5 @@
   &:active {
     background-color: $white;
     text-decoration: none;
-    color: $purple;
   }
 }

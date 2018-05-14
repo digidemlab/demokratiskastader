@@ -20,7 +20,7 @@ layout: global
 
 <a id="main-content"></a>
 <main id="main">
-
+<div class="container-full-width gradient-border"></div>
 <div class="container">
   <div class="tool-listing">
     <div class="row">
@@ -35,7 +35,7 @@ layout: global
           {% for item in site.themes %}
             <li>
          	    <a class="tool-listing_item" href="{{site.baseurl}}{{item.url}}">
-                <div class="tool-listing_description">{{item.title}}</div>
+                {{item.title}}
                 <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
               </a>
             </li>

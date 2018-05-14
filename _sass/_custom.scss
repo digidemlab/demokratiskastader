@@ -140,8 +140,8 @@ a.card-link:hover .card-bg-metoder {
   background-position: 0% 100%;
 }
 
-// Tool listing
-
-.tool-listing_description {
-  font-size: $font-size-h3;
+.gradient-border {
+  background: url('/assets/images/png/gradient3.png');
+  background-size: contain;
+  height: 1rem;
 }

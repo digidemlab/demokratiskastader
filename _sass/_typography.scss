@@ -7,6 +7,22 @@
   color: $white;
   font-weight: bold;
   font-family: $font-family-sans-serif;
+
+  &.-black {
+    color: $black;
+  }
+
+  &.-white {
+    color: $white;
+  }
+
+  &.-grey-base {
+    color: $grey-base;
+  }
+
+  &.-italic {
+    font-style: italic;
+  }
 }
 
 .heading-hero {
@@ -28,22 +44,6 @@
   font-size: $font-size-h2;
   line-height: 1.3em;
 
-  &.-black {
-    color: $black;
-  }
-
-  &.-white {
-    color: $white;
-  }
-
-  &.-grey-base {
-    color: $grey-base;
-  }
-
-  &.-italic {
-    font-style: italic;
-  }
-
   @include media-breakpoint-up(md) {
     font-size: $font-size-h2;
   }
@@ -56,14 +56,6 @@
   font-size: $font-size-h2;
   line-height: 1.3em;
 
-  &.-white {
-    color: $white;
-  }
-
-  &.-grey-base {
-    color: $grey-base;
-  }
-
   @include media-breakpoint-up(md) {
     font-size: $font-size-h2;
   }
@@ -75,25 +67,14 @@
   font-size: $font-size-h2;
   margin-top: 1em;
 
-  &.-white {
-    color: $white;
-  }
-
-  &.-grey-base {
-    color: $grey-base;
-  }
-
-  &.-purple {
-    color: $purple;
-  }
-
-  &.-italic {
-    font-style: italic;
-  }
-
   @include media-breakpoint-up(md) {
     font-size: $font-size-h2;
   }
+}
+
+h5 {
+  @extend %heading;
+  font-size: $font-size-h3;
 }
 
 // Paragraph body text
@@ -132,7 +113,7 @@
   }
 
   &.-xsmall {
-    font-size: 0.857em;
+    font-size: 0.875em;
     line-height: 1.750em;
   }
 }
