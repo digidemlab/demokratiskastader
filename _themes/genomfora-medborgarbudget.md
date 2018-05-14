@@ -3,16 +3,11 @@ title: Genomföra en medborgarbudget
 ref: medborgarbudget
 ---
 
-## En medborgarbudget, vad är det?
+## Vad är en medborgarbudget?
+Medborgarbudget är en innovativ demokratisk process som ger invånare beslutandemakt över en stadsdel, kommuns eller stats budget. Processen kan även användas inom organisationer eller offentliga sektorn som i skolor. Under trettio år, med start i Brasilien under 80-talet, har medborgarbudget visat sig vara en effektiv metod för att sammanföra stora grupper av invånare, ge ökad förståelse av hur den offentliga budgeten fungerar och öka tilliten mellan invånare, politiker och tjänstepersoner. Medborgarbudgeten infördes till en början för att förhindra korruption och minska den ekonomiska ojämlikheten men har nu spridit sig till omkring 1500 städer världen över med olika samhällsskick och förutsättningar.
 
-En medborgarbudget handlar om att involvera medborgare i beslutprocesser hur ressurser används i en organisation eller en kommun.
-De första medborgarbudgetarna startade i SydAmerika i 1980-90-talet för att kampa mot korruption.
-De används nu i ungefär 1500 städer världen över.
-
-## Varför göra det?
-
-Även i länder där korruption är låg har medborgarbugetar spridit sig eftersom de har många andra fördelar.
-* Bättre användning av resurser
-* Medborgare mer engagerade i deras närsamhälle
-* Bättre deltagande av de fattigaste och minst engagerade delarna av befolkningen (om gjort rätt)
-* Bättre förståelse av hur lokal politik och den offentliga fungerar, hur mycket offentliga projekts kostnader
+## Varför ska vi använda medborgarbudget?
+* Det gör invånare mer engagerade i sin stad, ökar kunskapen om hur kommunen fungerar och förståelse för hur budgetprocessen ser ut, något som ger ökat förtroende till politiker och tjänstepersoner
+* Det är mer effektivt för kommunen och förhindrar konflikter eftersom invånarna samarbetar tillsammans med dess anställda och politiker för att uppfylla stadens behov när de ges förtroende att bestämma
+* Genom att ge invånare reell makt över ekonomiska resurser blir underrepresenterade grupper som annars inte deltar i politiska processer motiverade till att vara med 
+* Det tas bättre beslut när fler får vara med och bestämma genom kollektiv intelligens 
