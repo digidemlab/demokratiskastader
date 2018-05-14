@@ -31,6 +31,16 @@ img {
     background-color: $grey-light;
   }
 
+  &.-dirty-white {
+    color: $gray-base;
+    background-color: $dirty-white;
+  }
+
+  &.-dirty-white-light {
+    color: $gray-base;
+    background-color: $dirty-white-light;
+  }
+
   &.-purple-light {
     background-color: $purple-light;
   }
@@ -97,7 +107,6 @@ img {
   margin-top:-10px;
 }
 
-
 // Cards
 
 .card-bg-overlay {
@@ -125,4 +134,9 @@ a.card-link:hover .card-bg-verktyg {
 
 a.card-link:hover .card-bg-metoder {
   background-position: 0% 100%;
+
+// Tool listing
+
+.tool-listing_description {
+  font-size: $font-size-h3
 }

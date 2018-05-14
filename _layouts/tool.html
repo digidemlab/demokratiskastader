@@ -2,27 +2,14 @@
 layout: global
 ---
 
-<div class="container">
-  <div class="row category-lead">
-    <div class="col-sm-12">
-      <!-- Themes -->
-      {% for item in site.themes %}
-        {% if page.themes contains item.title %}
-          <a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>&nbsp;&nbsp;
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-<div class="container-full-width -purple-light">
+<div class="container-full-width -dirty-white">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6 offset-md-3 text-center">
 
         <div class="page-intro">
-          <h1 class="heading-a">{{page.title}}</h1>
-          <p class="summary">{{page.ingress-text}}</p>
+          <h1 class="heading-a -grey-base">{{page.title}}</h1>
+          <p class="summary -grey-base">{{page.ingress-text}}</p>
         </div>
       </div>
     </div>
