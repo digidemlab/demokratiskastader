@@ -1,13 +1,12 @@
 <div class="col-sm-6 col-lg-4 mb-3">
-  <div class="card h-100">
-    <img class="card-img-top" src="/assets/images/png/gradient.png" alt="Card image cap">
-    <a href="{{ site.baseurl }}{{ post.url }}">
-      <div class="card-img-overlay">
-        <h5 class="card-title">{{ post.title }}</h5>
+  <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">
+    <div class="card h-100">
+      <div class="rounded-top card-bg-overlay card-bg-{{post.categories[0]}} card-bg-{{post.categories[0]}}-{% cycle 'odd', 'even' %} d-flex align-content-center flex-wrap">
+        <h5 class="card-title text-center w-100 mb-0">{{ post.title }}</h5>
       </div>
       <div class="card-body">
         <p class="card-text">{{ post.excerpt }}</p>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
 </div>

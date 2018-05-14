@@ -96,3 +96,33 @@ img {
 .shifted-10-up {
   margin-top:-10px;
 }
+
+
+// Cards
+
+.card-bg-overlay {
+  background: url('/assets/images/png/gradient_bg.png');
+  background-position: 0 0;
+  display: block;
+  height: 10.8em;
+
+  &.card-bg-verktyg {
+    background-position: 100% 33%;
+  }
+
+  &.card-bg-verktyg-even {
+    background-position: 100% 66%
+  }
+
+  &.card-bg-metoder-even {
+    background-position: 0 66%
+  }
+}
+
+a.card-link:hover .card-bg-verktyg {
+  background-position: 100% 100%;
+}
+
+a.card-link:hover .card-bg-metoder {
+  background-position: 0% 100%;
+}
