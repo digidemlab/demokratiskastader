@@ -31,19 +31,16 @@ layout: global
 
     <div class="row">
       <div class="col-sm-12 col-md-8 offset-md-2">
-        <dl>
+        <ul class="list-unstyled">
           {% for item in site.themes %}
-            <dd>
-              <ul class="list-unstyled">
-                <li class="tool-listing_item">
-             	    <a href="{{site.baseurl}}{{item.url}}">
-                    <div class="tool-listing_description">{{item.title}}</div>
-                    <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
-                  </a>
-                </li>
-            </dd>
+            <li>
+         	    <a class="tool-listing_item" href="{{site.baseurl}}{{item.url}}">
+                <div class="tool-listing_description">{{item.title}}</div>
+                <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
+              </a>
+            </li>
           {% endfor %}
-        </dl>
+        </ul>
       </div>
     </div>
   </div>
