@@ -31,6 +31,16 @@ img {
     background-color: $grey-light;
   }
 
+  &.-dirty-white {
+    color: $gray-base;
+    background-color: $dirty-white;
+  }
+
+  &.-dirty-white-light {
+    color: $gray-base;
+    background-color: $dirty-white-light;
+  }
+
   &.-purple-light {
     background-color: $purple-light;
   }
@@ -95,4 +105,8 @@ img {
 
 .shifted-10-up {
   margin-top:-10px;
+}
+
+.tool-listing_description {
+  font-size: $font-size-h3
 }
