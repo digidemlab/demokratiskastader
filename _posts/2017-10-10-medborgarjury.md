@@ -27,6 +27,8 @@ readmore:
     url: https://www.newdemocracy.com.au/research/research-notes/432-learnings-nuclear-jury
   - title: Irland använder medborgarjury i abortlagstiftning (Eng)
     url: https://vimeo.com/246689508
+  - title: Skottland testar jurymetoden
+    url: http://whatworksscotland.ac.uk/wp-content/uploads/2017/06/SIPRAnnualReport2016NickBlandLocalParticipation.pdf
 - headline: Kontakt
 quote: Jag tror att vi aldrig hade kommit dit vi är idag med liberaliseringen av abortlagarna
   i Irland om det inte varit för medborgarjuryn. Jag tror att det annars hade tagit
