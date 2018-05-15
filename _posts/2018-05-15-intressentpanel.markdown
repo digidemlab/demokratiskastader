@@ -9,6 +9,9 @@ quote: "If you engage early enough, you can’t go wrong. If you engage when you
   a draft, it would take very, very high-skilled rhetoric to make this \nwork. That’s
   the critical issue.\n"
 source: Audrey Tang, Digitalminister i Taiwan
+themes:
+- Samla idéer och förslag
+- Hitta nya former för medborgardeltagande
 ---
 
 ## Vad är en intressentpanel?
