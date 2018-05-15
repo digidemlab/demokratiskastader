@@ -24,7 +24,7 @@ layout: global
   <div class="tool-listing">
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h2 class="heading-a -black mb-4">Vi vill…</h2>
+        <h2 class="heading-a -black mb-3">Vi vill…</h2>
       </div>
     </div>
 
@@ -49,11 +49,10 @@ layout: global
   <div class="container -wide-margins">
     <div class="row">
       <div class="heading-block col-sm-12">
-        <h2 class="heading-c -white">Metoder</h2>
-        <img class="icon-header-side" src="{{site.baseurl}}/assets/images/svg/icon-idea.svg">
+        <h2 class="heading-c -white -icon-header -icon-idea">Metoder  <span><img class="icon-header-side align-text-bottom" src="{{site.baseurl}}/assets/images/svg/icon-idea.svg"></span></h2>
       </div>
     </div>
-    <div class="row mb-4">
+    <div class="row mb-3">
       {% for post in site.categories.metoder limit:3 %}
         {% include teaser/teaser.html %}
       {% endfor %}
@@ -63,15 +62,12 @@ layout: global
         <p class="text-right"><a class="read-more" href="{{site.baseurl}}/metoder">Fler metoder</a></p>
       </div>
     </div>
-  </div>
-  <div class="container -wide-margins">
     <div class="row">
       <div class="heading-block col-sm-12">
-        <h2 class="heading-c -white">Verktyg</h2>
-        <img class="icon-header-side" src="{{site.baseurl}}/assets/images/svg/icon-keyhole.svg">
+        <h2 class="heading-c -white">Verktyg <span><img class="icon-header-side align-text-bottom" src="{{site.baseurl}}/assets/images/svg/icon-keyhole.svg"></span></h2>
       </div>
     </div>
-    <div class="row mb-4">
+    <div class="row mb-3">
       {% for post in site.categories.verktyg limit:3%}
         {% include teaser/teaser.html %}
       {% endfor %}
@@ -85,15 +81,14 @@ layout: global
 </div>
 
 <div class="container-full-width -gray-light">
-  <div class="container -wide-margins">
+  <div class="container pt-2 pb-4">
     <div class="row">
       <div class="heading-block col-sm-12">
-        <h2 class="heading-c -white">Resurser</h2>
-        <img class="icon-header-side" src="{{site.baseurl}}/assets/images/svg/icon-books.svg">
+        <h2 class="heading-c -white">Resurser <span><img class="icon-header-side align-text-bottom" src="{{site.baseurl}}/assets/images/svg/icon-books.svg"></span></h2>
       </div>
     </div>
-    <div class="row mb-4">
-      {% for post in site.resources limit:3 %}
+    <div class="row">
+      {% for post in site.resources limit:2 %}
         {% include teaser/teaser_list.html %}
       {% endfor %}
     </div>
