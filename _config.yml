@@ -41,7 +41,7 @@ defaults:
     excerpt:
     ingress-text:
     image:
-    image-background:
+    background-image:
     time:
     costs:
     difficulty:
@@ -68,7 +68,7 @@ defaults:
     type: themes
   values:
     layout: theme
-    ref:
+    background-image:
 email: admin@digidemlab.org
 logo: "/public/logotyp.png"
 permalink: "/:title/"
