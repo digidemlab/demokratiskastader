@@ -5,10 +5,16 @@
   white-space: nowrap;
 }
 
-.nav-item {
-  font-size: 1.14em;
-}
 
 .dropdown {
   background: $black;
+}
+
+.dropdown-item {
+  background: url('/assets/images/svg/icon-arrow-small-white.svg') no-repeat 90% center;
+}
+
+.dropdown-item:hover {
+  text-decoration: underline;
+  background-image: url('/assets/images/svg/icon-arrow-small-grey.svg');
 }

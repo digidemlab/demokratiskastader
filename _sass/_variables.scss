@@ -9,9 +9,10 @@
 //## Gray and brand colors for use across Bootstrap.
 
 $gray-base:              #000 !default;
-$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+$gray-darker:            #262626 !default;
 $gray-dark:              #3d3d3d !default;
 $gray:                   lighten($gray-base, 33.5%) !default; // #555
+$gray-link:              lighten($gray-base, 50%) !default; // #555
 $gray-light:             #D8D8D8 !default;
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
@@ -109,7 +110,7 @@ $btn-border-radius:           $border-radius !default;
 
 // Navs
 
-$nav-link-padding-y:                3.2rem !default;
+$nav-link-padding-y:                3rem !default;
 $nav-link-padding-x:                1rem !default;
 
 // Navbar
@@ -117,7 +118,7 @@ $nav-link-padding-x:                1rem !default;
 $navbar-padding-y:                  ($spacer / 2) !default;
 $navbar-padding-x:                  $spacer !default;
 
-$navbar-nav-link-padding-x:         1.875rem !default;
+$navbar-nav-link-padding-x:         2rem !default;
 
 $navbar-brand-font-size:            $font-size-lg !default;
 // Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
@@ -155,9 +156,9 @@ $nav-disabled-link-hover-color:             $gray-light !default;
 //
 // Dropdown menu container and contents.
 
-$dropdown-min-width:                10rem !default;
+$dropdown-min-width:                28rem !default;
 $dropdown-padding-y:                2rem !default;
-$dropdown-spacer:                   -1rem !default;
+$dropdown-spacer:                   -1.25rem !default;
 $dropdown-bg:                       $black !default;
 $dropdown-border-color:             rgba($black, .15) !default;
 $dropdown-border-radius:            0 !default;
@@ -165,7 +166,7 @@ $dropdown-border-width:             0 !default;
 $dropdown-box-shadow:               0 .5rem 1rem rgba($black, .175) !default;
 
 $dropdown-link-color:               $white !default;
-$dropdown-link-hover-color:         $gray !default;
+$dropdown-link-hover-color:         $gray-link !default;
 $dropdown-link-hover-bg:            transparent !default;
 
 $dropdown-link-active-color:        $white !default;

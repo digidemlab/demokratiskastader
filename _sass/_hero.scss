@@ -16,16 +16,17 @@
 //	min-width: 280px;
 	margin: auto;
 	position: relative;
-	background: #999;
-	@include set-colored-bg-image($purple, 0.12, '../images/jpg/hero-village-desktop.jpg');
+	background: red;
+	//background: $black;
+//	@include set-colored-bg-image($black, 0.6, '../images/jpg/hero-village-desktop.jpg');
 	background-size: cover;
 	background-position: center center;
-	height: 37.5em;
+	height: 48em;
 
 	@include media-breakpoint-down(sm) {
 		height: 17em;
-		background: #999;
-    @include set-colored-bg-image($purple, 0.12, '../images/jpg/hero-village-mobile.jpg');
+		background: $black;
+    @include set-colored-bg-image($black, 0.6, '../images/jpg/hero-village-mobile.jpg');
     background-position: center center;
 	}
 }
