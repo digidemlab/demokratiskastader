@@ -145,3 +145,9 @@ a.card-link:hover .card-bg-metoder {
   background-size: contain;
   height: 1rem;
 }
+
+p {
+  &.-white {
+    color: $white;
+  }
+}

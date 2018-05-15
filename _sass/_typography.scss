@@ -72,6 +72,13 @@
   }
 }
 
+h4 {
+  @extend %heading;
+  font-size: $font-size-h4;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
 h5 {
   @extend %heading;
   font-size: $font-size-h3;

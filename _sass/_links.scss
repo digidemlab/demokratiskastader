@@ -2,29 +2,14 @@
 // Links and buttons
 
 .text-link {
-  color: $link-color;
-  text-decoration: underline;
-  font-weight: bold;
+  color: $white;
+  text-decoration: none;
   padding: 0.05em 0em 0.15em;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 
   &:hover,
   &:focus,
   &:active {
-    color: $link-color;
-    background-color: $link-hover-color;
-  }
-
-  &.-white {
-    color: $white;
-
-    &:hover,
-    &:focus,
-    &:active {
-      color: $purple;
-      background-color: $purple-light;
-    }
+    text-decoration: underline;
   }
 }
 
@@ -159,10 +144,20 @@
   text-decoration: none;
   padding: 0.05em 0.5em 0.15em;
   margin: 0 0.5em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  &.-small {
+    font-size: $font-size-sm;
+    padding: 0.05em 0em 0.15em;
+    margin: 0;
+    text-transform: none;
+  }
 
   &:hover,
   &:focus,
   &:active {
+    color: $black;
     background-color: $white;
     text-decoration: none;
   }
