@@ -1,10 +1,14 @@
-<div class="col-sm-6 padding">
-  <a href="{{ site.baseurl }}{{ post.link }}">
-    <h3 class="text-link">{{ post.title }}</h3>
-  </a>
-  <h4 class="-white">{{ post.author }}&nbsp;{{ post.date | date: "%-d %B %Y" }}</h4>
-  <p class="-white">
-    {{ post.excerpt }}
-  </p>
+<div class="col-xl-6 mb-3">
+  <div class="row">
+    <div class="col-sm-10 col-lg-8 col-xl-10">
+      <a href="{{ site.baseurl }}{{ post.link }}">
+        <h3 class="-white mb-3">{{ post.title }}</h3>
+      </a>
+      <h4 class="-gray-link">{{ post.author }}&nbsp; {% include misc/date.html %}</h4>
+      <p class="-white">
+        {{ post.excerpt }}
+      </p>
+    </div>
+  </div>
 </div>
 {% cycle '', '<div class="clearfix"></div>' %}

@@ -46,9 +46,17 @@ $purple2: #9716f4;
 // variables. Mostly focused on spacing.
 // You can add more entries to the $spacers map, should you need more variation.
 
-$spacer:   1rem !default;
-$spacer-x: $spacer !default;
-$spacer-y: $spacer !default;
+// stylelint-disable
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+  0: 0,
+  1: ($spacer * .25),
+  2: $spacer,
+  3: ($spacer * 1.5),
+  4: ($spacer * 2.5),
+  5: ($spacer * 4)
+), $spacers);
 
 
 // Body
@@ -56,6 +64,7 @@ $spacer-y: $spacer !default;
 // Settings for the `<body>` element.
 
 $body-color:    $black !default;
+
 
 // Links
 //

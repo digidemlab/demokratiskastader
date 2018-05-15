@@ -20,6 +20,10 @@
     color: $grey-base;
   }
 
+  &.-gray-link {
+    color: $gray-link;
+  }
+
   &.-italic {
     font-style: italic;
   }
@@ -65,16 +69,16 @@
 .content h3 {
   @extend %heading;
   font-size: $font-size-h2;
-    margin: 4em 0 2em;
-    
-  margin-top: 1em;
-  position: relative;
-  display: inline;
-  vertical-align: baseline;
+  margin: 1.5em 0 1.75em;
 
   @include media-breakpoint-up(md) {
     font-size: $font-size-h2;
   }
+}
+
+h3 {
+  @extend %heading;
+  font-size: $font-size-h3;
 }
 
 h4 {

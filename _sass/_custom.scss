@@ -56,7 +56,8 @@ img {
 
 .container {
   &.-wide-margins {
-    padding: 4rem 0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 }
 
@@ -91,27 +92,13 @@ img {
 // Footer
 .footer {
   background-color: $grey-base;
-  padding: 3.5em 0 5em;
-  margin-top: -0.5em;
+  padding: 3.5em 0;
 
   @include media-breakpoint-up(sm) {
-    padding: 5em 0;
+    padding: 4.5em 0;
   }
 }
 
-
-.shifted-30-up {
-  margin-top:-30px;
-}
-
-.shifted-15-up {
-  margin-top:-15px;
-}
-
-
-.shifted-10-up {
-  margin-top:-10px;
-}
 
 // Cards
 
@@ -151,10 +138,6 @@ a.card-link:hover .card-bg-verktyg {
 
 a.card-link:hover .card-bg-metoder {
   background-position: 0% 100%;
-}
-
-a:hover .card-title {
-  text-decoration: underline;
 }
 
 
