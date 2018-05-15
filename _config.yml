@@ -41,6 +41,7 @@ defaults:
     excerpt:
     ingress-text:
     image:
+    image-background:
     time:
     costs:
     difficulty:

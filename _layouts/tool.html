@@ -2,7 +2,7 @@
 layout: global
 ---
 
-<div class="container-full-width -dirty-white">
+<div class="container-full-width -dirty-white" {% if page.image-background %}style="background-image:url({{page.image-background}})"{% endif %}>
   <div class="container">
 
     {% include panel/menu.html %}
