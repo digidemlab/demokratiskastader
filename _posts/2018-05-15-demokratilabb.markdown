@@ -4,6 +4,8 @@ date: 2018-05-15 11:52:00 +02:00
 categories:
 - metoder
 excerpt: Skapa nya digitala verktyg för deltagande genom ett demokratilabb
+ingress-text: Genom ett labb kan kommuner samarbeta med utvecklare, designers och
+  civilsamhälle för att utveckla nya digitala verktyg för deltagande
 ---
 
 ## Vad är ett demokratilabb och varför behövs det?
