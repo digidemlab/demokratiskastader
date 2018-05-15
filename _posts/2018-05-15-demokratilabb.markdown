@@ -7,6 +7,13 @@ excerpt: Skapa nya digitala verktyg för deltagande genom ett demokratilabb
 ingress-text: Genom ett labb kan kommuner samarbeta med utvecklare, designers och
   civilsamhälle för att utveckla nya digitala verktyg för deltagande
 image: "/uploads/38312837631_13b0d78807_z.jpg"
+readmore:
+- headline: Läs mer
+  links:
+  - title: Medialab Prados hemsida
+    url: https://www.medialab-prado.es/en
+  - title: Intervju med Medialab Prados projektledare
+    url: https://medium.com/open-source-politics/the-15m-generation-is-fulfilling-its-promise-of-political-renewal-through-podemos-and-madrids-4c8bd3b50fe8
 ---
 
 ## Vad är ett demokratilabb och varför behövs det?
