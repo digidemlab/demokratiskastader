@@ -58,7 +58,7 @@
   height: 3.125em;
   width: 3.125em;
 
-  @media screen and (max-width: $break-medium) {
+  @include media-breakpoint-down(md) {
     margin-bottom: -0.5em;
   }
 }
@@ -69,4 +69,14 @@
   width: 3.5em;
   margin: 1em 0;
   background-image: url(../../assets/images/svg/icon-heart.svg);
+}
+
+.icon-header {
+  padding: 1rem;
+}
+
+.icon-header-side {
+  padding: 1rem;
+  display: inline;
+  float: right;
 }

@@ -16,22 +16,23 @@
 //	min-width: 280px;
 	margin: auto;
 	position: relative;
-	background: #999;
-	// @include set-colored-bg-image($purple, 0.12, '../images/jpg/hero-village-desktop.jpg');
+	background: red;
+	//background: $black;
+//	@include set-colored-bg-image($black, 0.6, '../images/jpg/hero-village-desktop.jpg');
 	background-size: cover;
 	background-position: center center;
-	height: 37.5em;
+	height: 48em;
 
-	@media screen and (max-width: $break-small) {
+	@include media-breakpoint-down(sm) {
 		height: 17em;
-		background: #999;
-    // @include set-colored-bg-image($purple, 0.12, '../images/jpg/hero-village-mobile.jpg');
+		background: $black;
+    @include set-colored-bg-image($black, 0.6, '../images/jpg/hero-village-mobile.jpg');
     background-position: center center;
 	}
 }
 
 .hero-caption {
-	position:absolute;
+	//position:absolute;
   z-index: 2;
 	top:70px;
 	left:0;
@@ -39,7 +40,7 @@
 	bottom:10px;
 	overflow:auto;
 
-  @media screen and (max-width: $break-small) {
+  @include media-breakpoint-down(sm) {
     top: 5px;
   }
 
@@ -50,7 +51,7 @@
     .heading-hero {
     	padding: 5rem;
     	margin: 5rem;
-    	@media screen and (max-width: $break-small) {
+    	@include media-breakpoint-down(sm) {
     		padding: 3rem 0;
     		margin: 1.2rem;
     	}
@@ -61,7 +62,7 @@
 .hero-button {
   top: -150px;
   z-index: 2;
-  @media screen and (max-width: $break-small) {
+  @include media-breakpoint-down(sm) {
     top: 0px;
   }
 

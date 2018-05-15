@@ -5,7 +5,7 @@ body, html {
 
 img {
   //width: 100%;
-  height: auto;
+  // height: auto;
 }
 
 .padding {
@@ -21,8 +21,24 @@ img {
   padding-left: 0px;
   padding-right: 0px;
 
-  &.-blue-light {
-    background-color: $blue-light;
+  &.-gray {
+    color: $white;
+    background-color: $grey-base;
+  }
+
+  &.-gray-light {
+    color: $gray-base;
+    background-color: $grey-light;
+  }
+
+  &.-dirty-white {
+    color: $gray-base;
+    background-color: $dirty-white;
+  }
+
+  &.-dirty-white-light {
+    color: $gray-base;
+    background-color: $dirty-white-light;
   }
 
   &.-purple-light {
@@ -35,6 +51,12 @@ img {
 
   &.-blue {
     background-color: $blue;
+  }
+}
+
+.container {
+  &.-wide-margins {
+    padding: 4rem 0;
   }
 }
 
@@ -51,13 +73,28 @@ img {
   }
 }
 
+.gradient {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+
+  &.-blue {
+    background: linear-gradient(to bottom right, $blue1, $blue2);
+  }
+
+  &.-purple {
+    background: linear-gradient(to bottom right, $purple1, $purple2);
+  }
+}
+
 // Footer
 .footer {
-  background-color: $purple;
+  background-color: $grey-base;
   padding: 3.5em 0 5em;
   margin-top: -0.5em;
 
-  @media screen and (min-width: $break-small) {
+  @include media-breakpoint-up(sm) {
     padding: 5em 0;
   }
 }
@@ -74,4 +111,63 @@ img {
 
 .shifted-10-up {
   margin-top:-10px;
+}
+
+// Cards
+
+
+.card {
+  box-shadow: 0 2px 4px 0 #9B9B9B;
+}
+
+.card-body {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.card-bg-overlay {
+  background: url('/assets/images/png/gradient_bg.png');
+  background-position: 0 0;
+  display: block;
+  height: 9.5em;
+
+  &.card-bg-verktyg {
+    background-position: 100% 33%;
+  }
+
+  &.card-bg-verktyg-even {
+    background-position: 100% 66%
+  }
+
+  &.card-bg-metoder-even {
+    background-position: 0 66%
+  }
+}
+
+a.card-link:hover .card-bg-verktyg {
+  background-position: 100% 100%;
+}
+
+a.card-link:hover .card-bg-metoder {
+  background-position: 0% 100%;
+}
+
+a:hover .card-title {
+  text-decoration: underline;
+}
+
+
+// Misc
+
+.gradient-border {
+  background: url('/assets/images/png/gradient3.png');
+  background-size: cover;
+  height: 1rem;
+}
+
+p {
+  &.-white {
+    color: $white;
+  }
 }

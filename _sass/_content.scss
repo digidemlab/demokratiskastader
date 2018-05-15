@@ -9,7 +9,7 @@
     border-bottom: none;
   }
 
-  @media screen and (min-width: $break-medium) {
+  @include media-breakpoint-up(md) {
     border-bottom: none;
   }
 
@@ -25,11 +25,7 @@
   &_inner {
     padding: 0.6em 0;
 
-    .heading-c {
-      color: $purple;
-    }
-
-    @media screen and (min-width: $break-medium) {
+    @include media-breakpoint-up(md) {
       padding: 1em 0;
     }
   }
@@ -40,17 +36,17 @@
   font-size: 1.125em;
   line-height: 1.750em;
   font-family: $font-family-sans-serif;
-  color: $purple;
+  color: $grey-base;
   margin: 1em 0 0;
 
-  @media screen and (min-width: $break-medium) {
+  @include media-breakpoint-up(md) {
     font-size: 1.5em;
   }
 }
 
 // The category on tool-page
 .category-lead {
-  margin: 2.5em 0 1.5em;
+  margin: 2.5em 0 0em;
 
   &_text {
     font-size: 1.875em;
@@ -59,7 +55,7 @@
     color: $pink;
     font-style: italic;
 
-    @media screen and (min-width: $break-medium) {
+    @include media-breakpoint-up(md) {
       font-size: 2.5em;
       margin: 1.5em 0 2em;
     }
@@ -77,12 +73,12 @@
     line-height: 1.50em;
     font-style: italic;
 
-    @media screen and (min-width: $break-medium) {
+    @include media-breakpoint-up(md) {
       font-size: 1.500em;
     }
   }
 
-  @media screen and (min-width: $break-medium) {
+  @include media-breakpoint-up(md) {
     padding: 5em 0 6em;
   }
 
@@ -100,6 +96,10 @@
 // Resources and links
 .resources {
   padding: 2em 0 3em;
+
+  &_category {
+    display: inline-block;
+  }
 
   &_item:before {
     background-image: url(../../assets/images/svg/icon-link.svg);
@@ -131,14 +131,14 @@
     background-color: $white;
   }
 
-  @media screen and (min-width: $break-medium) {
+  @include media-breakpoint-up(md) {
     padding: 3em 0 4em;
   }
 }
 
 // Intro on tool-page and page-page
 .page-intro {
-  padding: 2.5em 0 4em;
+  padding: 8rem 0;
 
   h1 {
     margin-bottom: 0;

@@ -1,9 +1,9 @@
 <div class="col-sm-6 padding">
   <a href="{{ site.baseurl }}{{ post.link }}">
-    <h3>{{ post.title }}</h3>
+    <h3 class="text-link">{{ post.title }}</h3>
   </a>
-  <p>
-    <small>{{ post.author }}&nbsp;{{ post.date | date: "%-d %B %Y" }}</small><br>
+  <h4 class="-white">{{ post.author }}&nbsp;{{ post.date | date: "%-d %B %Y" }}</h4>
+  <p class="-white">
     {{ post.excerpt }}
   </p>
 </div>

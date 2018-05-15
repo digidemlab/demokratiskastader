@@ -2,13 +2,16 @@
 layout: global
 ---
 
-<div class="container-full-width -blue-light">
+<div class="container-full-width -gray">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-6 col-md-offset-3 text-center">
+
+      {% include panel/menu.html %}
+
+      <div class="col-sm-12 col-md-6 offset-md-3 text-center">
         <div class="page-intro">
-          <h1 class="heading-a">{{page.title}}</h1>
-          <p class="summary">{{page.ingress-text}}</p>
+          <h1 class="heading-a -white">{{page.title}}</h1>
+          <p class="summary -white">{{page.ingress-text}}</p>
         </div>
       </div>
     </div>
@@ -18,7 +21,7 @@ layout: global
 <div class="container">
   <div class="page-content">
     <div class="row">
-      <div class="content col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+      <div class="content col-sm-10 offset-sm-1 col-md-8 offset-md-2">
         {{content}}
       </div>
     </div>

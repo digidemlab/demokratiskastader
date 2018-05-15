@@ -11,9 +11,9 @@ FNs globala mål och Open Government Partnerships rekommendationer osv osv
 
 Det sker genom metoder och plattformar som uppmuntrar transparens (mål 16.6) och deltagarbaserat beslutsfattande (16.7) genom att underlätta för marginaliserade grupper att delta i det politiska livet (10.2), och främja egenmakt genom gynnsam teknik (5.b).
 
-* Support civic participation.
-* Increase access to new technologies for openness and accountability.
+* **Support civic participation.**
+* **Increase access to new technologies for openness and accountability.**
 
-De digitala verktyg som presenteras här är väl användarvänliga, pålitliga och anpassningsbara, med ambitionen att följa riktlinjerna för [etisk design](https://2017.ind.ie/ethical-design/) och [internationella digitala principer](https://digitalprinciples.org/).
+De digitala verktyg som presenteras här är väl användarvänliga, pålitliga och anpassningsbara, med ambitionen att följa riktlinjerna för **[etisk design](https://2017.ind.ie/ethical-design/)** och **[internationella digitala principer](https://digitalprinciples.org/)**.
 
 Metoder som presenteras bygger på erfarenheter från kommuner och städer internationellt osv osv
