@@ -42,6 +42,8 @@ themes:
 ## Vad är det och varför använda det?
 En medborgarjury är en grupp slumpvis valda demografiskt representativa medborgare som bjuds in till att se över och diskutera förslag för kommunen. Juryn tränas i kritiskt tänkande, får bakgrundsinformation och tillgång till experter samt förespråkare av olika perspektiv och fattar därför välgrundade beslut.  
 
+Medborgarjurys användes först i USA på 70-talet och har spridits till både stater och kommuner i Storbritannien, Holland, Irland, Frankrike och Australien.  Planeringsceller är en annan form av medborgarjury som infördes i Tyskland och har frekvent används i Österrike, Schweiz och Spanien. Metoden användes till en början för att ta itu med kontroversiella frågor särskilt inom vetenskap, teknologi och samhällsproblem men har senare också används för att involvera invånare på en bredare nivå. År 2018 införde Madrid stad en permanent funktion för medborgarråd som grundar sig på jurymetoden.
+
 Medborgarjurys är ett sätt att vitalisera demokratin och öka kommuninvånares kunskaper och tillit kring det politiska arbetet i staden. Det breddar medborgarprocesser från att endast locka välorganiserade grupper, lobbys eller resursstarka individer till att också inkludera människor som vanligtvis inte deltar eller känner sig delaktiga i beslutsfattande. Jurys kan vara jätte bra att använda vid frågor som politiker har svårt att diskutera eller besluta kring på grund av polarisering eller brist på relevanta erfarenheter. Medborgarjurys fungerar som ett komplement för att hjälpa valda representanter att fatta bra beslut som är grundade i folkets vilja. 
 
 ## Hur används det?
