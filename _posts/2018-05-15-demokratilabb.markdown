@@ -3,6 +3,7 @@ title: Demokratilabb
 date: 2018-05-15 11:52:00 +02:00
 categories:
 - metoder
+excerpt: Skapa nya digitala verktyg för deltagande genom ett demokratilabb
 ---
 
 ## Vad är ett demokratilabb och varför behövs det?
