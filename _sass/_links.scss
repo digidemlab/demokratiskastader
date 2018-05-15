@@ -1,98 +1,29 @@
 //
 // Links and buttons
 
-.text-link {
-  color: $white;
-  text-decoration: none;
-  padding: 0.05em 0em 0.15em;
+.read-more {
+    background: url('/assets/images/svg/icon-arrow-small-white.svg') no-repeat right 55%;
+    padding-right: 1rem;
+    color: $white;
 
-  &:hover,
-  &:focus,
-  &:active {
-    text-decoration: underline;
-  }
-}
-
-// Call to action button
-.button-cta,
-%button-cta {
-  background-color: $blue;
-  border-radius: 5em;
-  color: $blue-light;
-  padding: 1.5em 3em;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  text-decoration: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  position: relative;
-  border: solid 1px $blue;
-
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: $link-hover-color;
-    text-decoration: none;
-    color: $blue;
-    border-color: $link-color;
-    -webkit-box-shadow: 0 2px 0 0 $link-color;
-    -moz-box-shadow: 0 2px 0 0 $link-color;
-    box-shadow: 0 2px 0 0 $link-color;
-  }
-
-  @include media-breakpoint-down(sm) {
-    /*bottom: 0;
-    left: 0;*/
-    width: 100%;
-    /*border-radius: 0;*/
-    z-index: 2;
-    background-color: $blue;
-    color: $blue-light;
-  }
-
-  &.tool-page {
-    @include media-breakpoint-down(sm) {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      border-radius: 0;
-      z-index: 2;
-      background-color: $blue;
-      color: $blue-light;
-      padding: 0.9em 3em;
+    &:hover {
+      color: $dropdown-link-hover-color;
+      text-decoration: underline;
+      background-image: url('/assets/images/svg/icon-arrow-small-grey.svg');
     }
-  }
 }
-
-// Remove link styling
-.clean-link {
-  text-decoration: none;
-  color: inherit;
-
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: transparent;
-    text-decoration: none;
-    color: inherit;
-  }
-}
-
 
 // Tool listing
 .tool-listing {
-  padding: 7rem 0rem 15.5rem;
+  padding: 7rem 0rem 14rem;
 
   &_item {
     display: block;
     border: solid 1px $gray-light;
     border-radius: 0.375em;
     padding: 2.75rem 3rem 2.75rem 3rem;
-    -webkit-box-shadow: 0 2px 0 0 $gray-light;
-    -moz-box-shadow: 0 2px 0 0 $gray-light;
-    box-shadow: 0 2px 0 0 $gray-light;
-    margin: 0.5em 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24);
+    margin: 1.25em 0;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     vertical-align: middle;

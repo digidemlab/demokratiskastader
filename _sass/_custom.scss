@@ -109,19 +109,22 @@ img {
 
 // Cards
 
-.col-lg-4 {
-  margin: 0 !important;
-  padding: 15px;
-}
+
 .card {
   box-shadow: 0 2px 4px 0 #9B9B9B;
+}
+
+.card-body {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 .card-bg-overlay {
   background: url('/assets/images/png/gradient_bg.png');
   background-position: 0 0;
   display: block;
-  height: 10.8em;
+  height: 9.5em;
 
   &.card-bg-verktyg {
     background-position: 100% 33%;
@@ -143,6 +146,13 @@ a.card-link:hover .card-bg-verktyg {
 a.card-link:hover .card-bg-metoder {
   background-position: 0% 100%;
 }
+
+a:hover .card-title {
+  text-decoration: underline;
+}
+
+
+// Misc
 
 .gradient-border {
   background: url('/assets/images/png/gradient3.png');
