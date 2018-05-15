@@ -6,7 +6,7 @@ layout: global
   <div class="container">
 
     {% include panel/menu.html %}
-    
+
     <div class="row">
       <div class="col-sm-12 col-md-6 offset-md-3 text-center">
 
@@ -21,23 +21,39 @@ layout: global
 
 {% include content/shortfacts.html %}
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12 col-md-8 offset-md-2">
-      <img class="image-tool" src="{{site.baseurl}}{{page.image}}">
+<div class="container-full-width -dirty-white-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 offset-md-2">
+        <img class="image-tool" src="{{site.baseurl}}{{page.image}}">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="content col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+        {{content}}
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row category-lead">
+      <div class="col-sm-12">
+        <!-- Themes -->
+        {% for item in site.themes %}
+          {% if page.themes contains item.title %}
+            <div class="theme-listing">
+              <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="theme-listing_arrow">
+              <a class="theme-listing_item" href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>&nbsp;&nbsp;
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
-
-<div class="container">
-  <div class="row">
-    <div class="content col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-      {{content}}
-    </div>
-  </div>
-</div>
-
-
 {% include content/resources.html %}
 
 {% if page.quote %}

@@ -136,6 +136,7 @@
 }
 
 
+
 .footer-link {
   color: $white;
   letter-spacing: 0.05em;
@@ -160,5 +161,25 @@
     color: $black;
     background-color: $white;
     text-decoration: none;
+  }
+}
+
+.theme-listing {
+  display: inline-block;
+  padding: 5rem 1.25rem 1.5rem;
+
+  &_item {
+    color: $black;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $grey-base;
+    }
+  }
+
+  &_arrow {
+    height: 0.625rem;
+    width: 0.375rem;
   }
 }
