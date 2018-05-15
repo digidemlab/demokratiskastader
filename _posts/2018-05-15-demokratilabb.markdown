@@ -16,6 +16,9 @@ readmore:
     url: https://medium.com/open-source-politics/the-15m-generation-is-fulfilling-its-promise-of-political-renewal-through-podemos-and-madrids-4c8bd3b50fe8
   - title: GovLab i New York
     url: http://www.thegovlab.org
+quote: Our Projects try to answer the questions that stand between today and more
+  effective and legitimate governance tomorrow
+source: The Governance Lab, NY
 ---
 
 ## Vad är ett demokratilabb och varför behövs det?
