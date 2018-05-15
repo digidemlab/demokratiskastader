@@ -11,13 +11,13 @@ time: Ca 3 månader varav 40 h mötestid för juryn
 readmore:
 - headline: Handböcker
   links:
-  - title: Implementering av medborgarjurys i kombination med digitala plattformar(Eng)
+  - title: Medborgarjurys i kombination med digitala plattformar - för Madrid stad(Eng)
     url: https://sorteopolitico.files.wordpress.com/2017/12/manual1_hybriddemocracy.pdf
-  - title: Hur du implementerar slumpvis representation(Eng)
+  - title: Slumpvis representation(Eng)
     url: https://static1.squarespace.com/static/55af0533e4b04fd6bca65bc8/t/5aafb4b66d2a7312c182b69d/1521464506233/Lotto_Paper_v1.1.2.pdf
   - title: Hur du ska använda medborgarjurys (Eng)
     url: http://activedemocracy.net/articles/cj_handbook.pdf
-  - title: En detaljerad manual i hur medborgarjurys ska organiseras (Eng)
+  - title: Resurser för att organisera en jury(Eng)
     url: https://sorteopolitico.files.wordpress.com/2017/12/manual2_policy-juries.pdf
 - headline: Case
   links:
@@ -40,7 +40,6 @@ themes:
 ---
 
 ## Vad är det och varför använda det?
-
 En medborgarjury är en grupp slumpvis valda demografiskt representativa medborgare som bjuds in till att se över och diskutera förslag för kommunen. Juryn tränas i kritiskt tänkande, får bakgrundsinformation och tillgång till experter samt förespråkare av olika perspektiv och fattar därför välgrundade beslut.  
 
 Medborgarjurys är ett sätt att vitalisera demokratin och öka kommuninvånares kunskaper och tillit kring det politiska arbetet i staden. Det breddar medborgarprocesser från att endast locka välorganiserade grupper, lobbys eller resursstarka individer till att också inkludera människor som vanligtvis inte deltar eller känner sig delaktiga i beslutsfattande. Jurys kan vara jätte bra att använda vid frågor som politiker har svårt att diskutera eller besluta kring på grund av polarisering eller brist på relevanta erfarenheter. Medborgarjurys fungerar som ett komplement för att hjälpa valda representanter att fatta bra beslut som är grundade i folkets vilja. 
