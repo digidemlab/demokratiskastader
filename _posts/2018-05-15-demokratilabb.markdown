@@ -14,6 +14,8 @@ readmore:
     url: https://www.medialab-prado.es/en
   - title: Intervju med Medialab Prados projektledare
     url: https://medium.com/open-source-politics/the-15m-generation-is-fulfilling-its-promise-of-political-renewal-through-podemos-and-madrids-4c8bd3b50fe8
+  - title: GovLab i New York
+    url: http://www.thegovlab.org
 ---
 
 ## Vad är ett demokratilabb och varför behövs det?
