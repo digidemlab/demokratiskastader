@@ -30,8 +30,8 @@ readmore:
   - title: Digidem Lab kan hjälpa dig att sätta upp DemocracyOS på din egen server
       eller en molntjänst
 themes:
-- Hitta nya former för medborgardeltagande
-- Planera för deltagandeprocesser
+- Genomföra medborgarförslag
+- 
 - 
 ---
 

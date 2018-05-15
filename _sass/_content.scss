@@ -46,7 +46,7 @@
 
 // The category on tool-page
 .category-lead {
-  margin: 2.5em 0 1.5em;
+  margin: 2.5em 0 0em;
 
   &_text {
     font-size: 1.875em;
@@ -96,6 +96,10 @@
 // Resources and links
 .resources {
   padding: 2em 0 3em;
+
+  &_category {
+    display: inline-block;
+  }
 
   &_item:before {
     background-image: url(../../assets/images/svg/icon-link.svg);
