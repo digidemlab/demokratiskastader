@@ -16,9 +16,8 @@
 //	min-width: 280px;
 	margin: auto;
 	position: relative;
-	background: red;
-	//background: $black;
-//	@include set-colored-bg-image($black, 0.6, '../images/jpg/hero-village-desktop.jpg');
+	background: $black;
+	@include set-colored-bg-image($black, 0.6, '../images/jpg/hero-demokratiskastader.jpg');
 	background-size: cover;
 	background-position: center center;
 	height: 48em;
