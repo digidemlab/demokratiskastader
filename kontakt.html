@@ -1,7 +1,7 @@
 ---
-title: Metoder
+title: Kontakta oss
 layout: global
-ingress-text: Inledning om metoder
+ingress-text: Vill du veta mer metoder och verktyg för framtidens demokratiska städer? Kontakta oss så berättar vi mer! 
 ---
 
 <div class="container-full-width -gray">
@@ -12,7 +12,6 @@ ingress-text: Inledning om metoder
     <div class="row">
       <div class="col-sm-12 col-md-6 offset-md-3 text-center">
         <div class="page-intro">
-          <img class="icon-header" src="{{site.baseurl}}/assets/images/svg/icon-idea.svg">
           <h1 class="heading-a -white">{{page.title}}</h1>
           <p class="summary -white">{{page.ingress-text}}</p>
         </div>
@@ -21,11 +20,11 @@ ingress-text: Inledning om metoder
   </div>
 </div>
 
-<div class="container-full-width -gray">
+<div class="container-full-width -gray-light">
   <div class="container -wide-margins">
     <div class="row">
-      {% for post in site.categories.metoder %}
-        {% include teaser/teaser.html %}
+      {% for post in site.crew %}
+        {% include teaser/teaser_crew.html %}
       {% endfor %}
     </div>
   </div>
