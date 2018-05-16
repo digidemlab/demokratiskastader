@@ -3,8 +3,11 @@
   letter-spacing: 0.06em;
   font-weight: bold;
   white-space: nowrap;
-}
 
+  &.-black {
+    color: $black;
+  }
+}
 
 .dropdown {
   background: $black;

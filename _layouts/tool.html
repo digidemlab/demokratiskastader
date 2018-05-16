@@ -2,7 +2,7 @@
 layout: global
 ---
 
-<div class="container-full-width -dirty-white" {% if page.image-background %}style="background-image:url({{page.image-background}})"{% endif %}>
+<div class="container-full-width -dirty-white" {% if page.background-image %}style="background:linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5)),url({{page.background-image}})"{% endif %}>
   <div class="container">
 
     {% include panel/menu.html %}
@@ -11,8 +11,13 @@ layout: global
       <div class="col-sm-12 col-md-6 offset-md-3 text-center">
 
         <div class="page-intro">
+          {% if page.background-image %}
+          <h1 class="heading-a -white">{{page.title}}</h1>
+          <p class="summary -white">{{page.ingress-text}}</p>
+          {% else %}
           <h1 class="heading-a -grey-base">{{page.title}}</h1>
           <p class="summary -grey-base">{{page.ingress-text}}</p>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -21,6 +26,11 @@ layout: global
 
 {% include content/shortfacts.html %}
 
+{% if page.image %}
+<div class="container-full-width gradient -full"></div>
+{% else %}
+<div class="container-full-width gradient -border"></div>
+{% endif %}
 <div class="container-full-width -dirty-white-light">
   <div class="container">
     <div class="row">
@@ -58,4 +68,6 @@ layout: global
 
 {% if page.quote %}
   {% include content/quote.html %}
+{% else %}
+<div class="container-full-width gradient -border"></div>
 {% endif %}
