@@ -42,7 +42,7 @@ themes:
 
 ## Vad är det och varför använda det?
 
-DemocracyOS är en av de första avancerade digitala demokrativerktygen. Utvecklad av den Partido de la Red i Argentina sedan 2012, den tillåter medborgare att diskutera om ett lagförslag eller ett projekt och att rösta.
+DemocracyOS är en av de första avancerade digitala demokrativerktygen. Utvecklad av den Partido de la Red i Argentina sedan 2012, den tillåter medborgare att diskutera om ett lagförslag eller ett projekt och att rösta. I SydAmerika har många föreningar och populära rörelser använt verktyget för att samla idéer och åsikter om projekt. Men förtroendevalda har också använt det för medborgarförslag och gemensam stadsplanering (se Nanterre nedan).
 
 ## Hur kan jag använda det
 
