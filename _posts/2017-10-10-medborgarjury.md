@@ -56,7 +56,7 @@ Medborgarjurys är ett sätt att vitalisera demokratin och öka kommuninvånares
 
 ## Hur används det?
 * Det sammanför omkring 40 slumpvis valda demografiskt representativa medborgare i en period på ett par månader med en mötestid på totalt 40 timmar, utspridda på heldagar ungefär varannan vecka.
-* Juryn får detaljerad och balanserad information kring frågan från experter som tjänstepersoner, forskare, civilsamhälle, brukare, boende och andra relevanta aktörer och kan ställa frågor samt söka ytterligare information de bedömer som relevant.
+* Juryn får detaljerad och balanserad information kring frågan från experter som boende,brukare, forskare, civilsamhälle, tjänstepersoner och andra relevanta aktörer och kan ställa frågor samt söka ytterligare information de bedömer som relevant.
 * Det kan organiseras i samråd med en styrgrupp eller intressentgrupp som säkerställer att juryns process är transparent och att experterna är trovärdiga 
 * Juryn har en neutral facilitator som säkerställer en god gruppdynamik som ger plats åt alla att tala, att gruppen får all information de behöver och att de uppfyller sitt syfte.
 * Juryn förbereder en rapport med sina rekommendationer och möjliga skilda åsikter i frågan som presenteras till kommunstyrelsen eller relevant nämnd.
