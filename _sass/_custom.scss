@@ -55,7 +55,6 @@ img {
 
   &.-blue-gradient {
     background: url('/assets/images/png/gradient4.png');
-    background-position: 80% 80%;
     background-size: cover;
   }
 
@@ -150,10 +149,19 @@ a.card-link:hover .card-bg-metoder {
 
 // Misc
 
-.gradient-border {
-  background: url('/assets/images/png/gradient3.png');
-  background-size: cover;
-  height: 1rem;
+.gradient {
+
+  &.-full {
+    height: 22rem;
+    background: url('/assets/images/png/gradient4.png');
+    background-size: cover;
+  }
+
+  &.-border {
+    background: url('/assets/images/png/gradient3.png');
+    background-size: cover;
+    height: 1rem;
+  }
 }
 
 p {

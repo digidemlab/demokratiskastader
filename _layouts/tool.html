@@ -26,6 +26,11 @@ layout: global
 
 {% include content/shortfacts.html %}
 
+{% if page.image %}
+<div class="container-full-width gradient -full"></div>
+{% else %}
+<div class="container-full-width gradient -border"></div>
+{% endif %}
 <div class="container-full-width -dirty-white-light">
   <div class="container">
     <div class="row">
@@ -63,4 +68,6 @@ layout: global
 
 {% if page.quote %}
   {% include content/quote.html %}
+{% else %}
+<div class="container-full-width gradient -border"></div>
 {% endif %}
