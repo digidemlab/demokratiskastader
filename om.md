@@ -3,6 +3,7 @@ title: Om Demokratiska Städer
 excerpt: Resurser för att ta medborgardialog till nästa steg.
 ingress-text: Verktyg och metoder för att skapa framtidens Demokratiska Städer.
 layout: page
+background-image: "/assets/images/jpg/about-desktop.jpg"
 ---
 
 **Demokratiska Städer** är en resursbank för kommuner och stadsdelar som vill ta sin medborgardialog till nästa nivå. Här hittar ni metoder, verktyg och plattformar som hjälper er att skapa fördjupat demokratiskt deltagande.

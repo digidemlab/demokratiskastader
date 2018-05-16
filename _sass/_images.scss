@@ -13,3 +13,9 @@
 
 	box-shadow: 0 2px 4px 0 #9B9B9B;
 }
+
+.background-about {
+	@include set-dark-bg-image('../images/jpg/hero-demokratiskastader-desktop.jpg');
+	background-size: cover;
+	background-position: center center;
+}

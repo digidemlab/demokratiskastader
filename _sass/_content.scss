@@ -128,19 +128,6 @@
     content: '';
   }
 
-  &_item-twitter:before {
-    background-image: url(../../assets/images/svg/icon-twitter.svg);
-    margin-right: 0.6em;
-    height: 1.125em;
-    width: 1.375em;
-    background-size: 1.375em 1.125em;
-    display: inline-block;
-    position: relative;
-    background-repeat: no-repeat;
-    top: 0.2em;
-    content: '';
-  }
-
   &_link {
     text-decoration: none;
 

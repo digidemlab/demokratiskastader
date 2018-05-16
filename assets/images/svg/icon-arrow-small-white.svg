@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="8px" height="11px" viewBox="0 0 8 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
-    <title>Triangle</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Menylänkar" transform="translate(-322.000000, -8.000000)" stroke="#FFFFFF" stroke-width="2">
-            <path d="M330.23965,10.9554119 L326.103121,16.0391478 C325.928836,16.2533422 325.613911,16.2856948 325.399717,16.1114094 C325.373225,16.0898534 325.349011,16.0656398 325.327455,16.0391478 L321.190927,10.9554119" id="Triangle" transform="translate(325.715288, 13.589502) rotate(-90.000000) translate(-325.715288, -13.589502) "></path>
-        </g>
-    </g>
-</svg>
+<svg height="11" viewBox="0 0 8 11" width="8" xmlns="http://www.w3.org/2000/svg"><path d="m330.23965 10.9554119-4.136529 5.0837359c-.174285.2141944-.48921.246547-.703404.0722616-.026492-.021556-.050706-.0457696-.072262-.0722616l-4.136528-5.0837359" fill="none" stroke="#fff" stroke-width="2" transform="matrix(0 -1 1 0 -9.874214 331.30479)"/></svg>

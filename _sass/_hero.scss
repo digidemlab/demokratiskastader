@@ -1,16 +1,20 @@
 //
 // images
 
-@mixin set-colored-bg-image($bgcolor, $bggradient, $bgimage){
+@mixin set-colored-bg-image($bgcolor, $bggradient, $bgimage) {
 	background: linear-gradient(
       rgba($bgcolor, $bggradient),
       rgba($bgcolor, $bggradient)
     ), url($bgimage);
 }
 
+@mixin set-dark-bg-image($bgimage) {
+	@include set-colored-bg-image($black, 0.6, $bgimage);
+}
+
 .hero-wrap {
 	background: $black;
-	@include set-colored-bg-image($black, 0.6, '../images/jpg/hero-demokratiskastader-desktop.jpg');
+	@include set-dark-bg-image('../images/jpg/hero-demokratiskastader-desktop.jpg');
 	background-size: cover;
 	background-position: center center;
 	height: 48em;
@@ -18,7 +22,7 @@
 	@include media-breakpoint-down(sm) {
 		height: 30.5em;
 		background: $black;
-    @include set-colored-bg-image($black, 0.6, '../images/jpg/hero-demokratiskastader-mobile.jpg');
+    @include set-dark-bg-image('../images/jpg/hero-demokratiskastader-mobile.jpg');
     background-position: center center;
 	}
 }
