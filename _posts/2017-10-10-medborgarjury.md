@@ -6,8 +6,16 @@ categories:
 excerpt: 'Slumpvis valda medborgare fattar välgrundade beslut och bidrar till bredare
   demografisk representation '
 ingress-text: 'Medborgarjurys breddar demokratin och fungerar som ett komplement för
-  att hjälpa valda representanter att fatta bra beslut som är grundade i folkets vilja. '
+  att hjälpa valda representanter att fatta beslut som är grundade i folkets vilja. '
 time: Ca 3 månader varav 40 h mötestid för juryn
+costs: |-
+  Facilitator.
+  Tjänstepersoner som planerar och håller i processen.
+  Experter i ämnet.
+  Neutral styrgrupp eller intressentgrupp (valfritt).
+  Catering.
+  Arvode, barnpassning och stöd vid särskilda behov.
+difficulty: Medelsvår.
 readmore:
 - headline: Handböcker
   links:
@@ -44,11 +52,11 @@ En medborgarjury är en grupp slumpvis valda demografiskt representativa medborg
 
 Medborgarjurys användes först i USA på 70-talet och har spridits till både stater och kommuner i Storbritannien, Holland, Irland, Frankrike och Australien.  Planeringsceller är en annan form av medborgarjury som infördes i Tyskland och har frekvent används i Österrike, Schweiz och Spanien. Metoden användes till en början för att ta itu med kontroversiella frågor särskilt inom vetenskap, teknologi och samhällsproblem men har senare också används för att involvera invånare på en bredare nivå. År 2018 införde Madrid stad en permanent funktion för medborgarråd som grundar sig på jurymetoden.
 
-Medborgarjurys är ett sätt att vitalisera demokratin och öka kommuninvånares kunskaper och tillit kring det politiska arbetet i staden. Det breddar medborgarprocesser från att endast locka välorganiserade grupper, lobbys eller resursstarka individer till att också inkludera människor som vanligtvis inte deltar eller känner sig delaktiga i beslutsfattande. Jurys kan vara jätte bra att använda vid frågor som politiker har svårt att diskutera eller besluta kring på grund av polarisering eller brist på relevanta erfarenheter. Medborgarjurys fungerar som ett komplement för att hjälpa valda representanter att fatta bra beslut som är grundade i folkets vilja. 
+Medborgarjurys är ett sätt att vitalisera demokratin och öka kommuninvånares kunskaper och tillit kring det politiska arbetet i staden. Det breddar medborgarprocesser från att endast locka välorganiserade grupper, lobbys eller resursstarka individer till att också inkludera människor som vanligtvis inte deltar eller känner sig delaktiga i beslutsfattande. Jurys kan vara gynnsamma att använda vid frågor som politiker har svårt att diskutera eller besluta kring på grund av polarisering eller brist på relevanta erfarenheter. Medborgarjurys fungerar som ett komplement för att hjälpa valda representanter att fatta bra beslut som är grundade i folkets vilja. 
 
 ## Hur används det?
-* Det sammanför omkring 40 slumpvis valda demografiskt representativa medborgare i en period på ett par månader med en mötestid på totalt 40 timmar, utspridda på heldagar ungefär varannan vecka 
-* Juryn får detaljerad och balanserad information kring frågan från experter som tjänstepersoner, forskare, civilsamhälle, brukare, boende och andra relevanta aktörer och kan ställa frågor samt söka ytterligare information de bedömer som relevant
+* Det sammanför omkring 40 slumpvis valda demografiskt representativa medborgare i en period på ett par månader med en mötestid på totalt 40 timmar, utspridda på heldagar ungefär varannan vecka.
+* Juryn får detaljerad och balanserad information kring frågan från experter som tjänstepersoner, forskare, civilsamhälle, brukare, boende och andra relevanta aktörer och kan ställa frågor samt söka ytterligare information de bedömer som relevant.
 * Det kan organiseras i samråd med en styrgrupp eller intressentgrupp som säkerställer att juryns process är transparent och att experterna är trovärdiga 
-* Juryn har en neutral facilitator som säkerställer en god gruppdynamik som ger plats åt alla att tala, att gruppen får all information de behöver och att de uppfyller sitt syfte 
-* Juryn förbereder en rapport med sina rekommendationer och möjliga skilda åsikter i frågan som presenteras till kommunstyrelsen eller relevant nämnd
+* Juryn har en neutral facilitator som säkerställer en god gruppdynamik som ger plats åt alla att tala, att gruppen får all information de behöver och att de uppfyller sitt syfte.
+* Juryn förbereder en rapport med sina rekommendationer och möjliga skilda åsikter i frågan som presenteras till kommunstyrelsen eller relevant nämnd.
