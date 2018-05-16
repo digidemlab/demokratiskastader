@@ -11,8 +11,13 @@ layout: global
       <div class="col-sm-12 col-md-6 offset-md-3 text-center">
 
         <div class="page-intro">
+          {% if page.background-image %}
+          <h1 class="heading-a -white">{{page.title}}</h1>
+          <p class="summary -white">{{page.ingress-text}}</p>
+          {% else %}
           <h1 class="heading-a -grey-base">{{page.title}}</h1>
           <p class="summary -grey-base">{{page.ingress-text}}</p>
+          {% endif %}
         </div>
       </div>
     </div>

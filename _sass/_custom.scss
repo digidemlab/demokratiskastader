@@ -52,6 +52,13 @@ img {
   &.-blue {
     background-color: $blue;
   }
+
+  &.-blue-gradient {
+    background: url('/assets/images/png/gradient4.png');
+    background-position: 80% 80%;
+    background-size: cover;
+  }
+
 }
 
 .container {
