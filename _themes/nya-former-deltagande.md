@@ -3,4 +3,4 @@ title: Hitta nya former för medborgardeltagande
 ref: deltagande
 ---
 
-Den absoluta majoriteten av svenskarna är inte medlemmar i något politiskt parti och demokratiutredningen 2014 visade att flertal marginaliserade grupper inte känner sig delaktiga i demokratin. Samtidigt ser vi att det finns ett stort engagemang i politiska sakfrågor via kampanjer, framförallt på internet och sociala medier, och vi ser att fler städer världen över använder sig av nya innovativa metoder för att involvera sina invånare. Alltså vet vi att det finns ett intresse för politik samtidigt som få personer deltar i de formella beslutsprocesserna och vi vet att det finns innovativa alternativ när partipolitiken inte längre är till för alla. 
+I situationer av minskat deltagande i demokratiska processer eller lågt förtroende för politiken kan det behövas nya metoder för att skapa engagemang och deltagande. Metoden G1000 skapades i samband med en utdragen regeringskris i Belgien, för att återskapa förtroendet för politiska processer. De här metoderna fungerar så klart för att skapa engagemang och få in nya perspektiv även under mindre dramatiska förhållanden.
