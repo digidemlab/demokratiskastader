@@ -1,6 +1,7 @@
 ---
 title: DemocracyOS
 date: 2018-05-09 08:30:00 +02:00
+published: false
 categories:
 - verktyg
 excerpt: Den första moderna demokrativerktyget
@@ -29,6 +30,11 @@ readmore:
   links:
   - title: Digidem Lab kan hjälpa dig att sätta upp DemocracyOS på din egen server
       eller en molntjänst
+    url: http://digidemlab.org/contact/
+quote: We are at a turning point in history where new technology is allowing us to
+  rethink how we govern ourselves and what institutions we should build to reflect
+  today’s technological, cultural and social realities and values.
+source: Pia Mancini, one of DemocracyOS founders
 themes:
 - Genomföra medborgarförslag
 - 
@@ -37,7 +43,7 @@ themes:
 
 ## Vad är det och varför använda det?
 
-DemocracyOS är en av de första avancerade digitala demokrativerktygen. Utvecklad av den Partido de la Red i Argentina sedan 2012, den tillåter medborgare att diskutera om ett lagförslag eller ett projekt och att rösta.
+DemocracyOS är en av de första avancerade digitala demokrativerktygen. Utvecklad av den Partido de la Red i Argentina sedan 2012, den tillåter medborgare att diskutera om ett lagförslag eller ett projekt och att rösta. I SydAmerika har många föreningar och populära rörelser använt verktyget för att samla idéer och åsikter om projekt. Men förtroendevalda har också använt det för medborgarförslag och gemensam stadsplanering (se Nanterre nedan).
 
 ## Hur kan jag använda det
 
