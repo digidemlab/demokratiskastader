@@ -5,6 +5,24 @@
   white-space: nowrap;
 }
 
+@include media-breakpoint-down(md) {
+  .menu-wrap {
+    background: $black;
+  }
+}
+
+.navbar-brand img {
+
+  @include media-breakpoint-down(lg) {
+    width: 20rem;
+    height: auto;
+  }
+
+  @include media-breakpoint-down(xs) {
+    width: 15rem;
+    height: auto;
+  }
+}
 
 .dropdown {
   background: $black;

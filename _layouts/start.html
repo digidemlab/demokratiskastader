@@ -3,15 +3,15 @@ layout: global
 ---
 
 <div class="hero-wrap">
-  <div class="container">
-
-    {% include panel/menu.html %}
-
-    <div class="row">
-      <div class="col-sm col-md-10 offset-md-1 text-center hero-caption">
-        <div class="hero-caption_content">
-          <h1 class="heading-hero">{{page.summary}}</h1>
-        </div>
+  <div class="menu-wrap">
+    <div class="container">
+      {% include panel/menu.html %}
+    </div>
+  </div>
+  <div class="container h-75">
+    <div class="row h-100 justify-content-center align-items-center">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 text-center hero-caption ">
+        <h1 class="heading-hero">{{page.summary}}</h1>
       </div>
     </div>
   </div>
