@@ -164,8 +164,13 @@ a.card-link:hover .card {
 
   &.-full {
     background: url('/assets/images/png/gradient4.png');
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 22rem;
+
+    @include media-breakpoint-down(sm) {
+      height: 12rem;
+    }
   }
 
   &.-border {
