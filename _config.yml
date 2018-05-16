@@ -14,21 +14,24 @@ collections:
   uploads:
     title: Uploads
     output: true
+  crew:
+    title: Crew
+    output: false
 defaults:
 - scope:
     path: ''
     type: pages
   values:
     layout: page
-    excerpt: 
-    ingress-text: 
+    excerpt:
+    ingress-text:
 - scope:
     path: ''
     type: resources
   values:
-    link: 
-    author: 
-    excerpt: 
+    link:
+    author:
+    excerpt:
     themes:
     - ''
     - ''
@@ -37,29 +40,29 @@ defaults:
     type: posts
   values:
     layout: tool
-    categories: 
-    excerpt: 
-    ingress-text: 
-    image: 
-    background-image: 
-    time: 
-    costs: 
-    difficulty: 
+    categories:
+    excerpt:
+    ingress-text:
+    image:
+    background-image:
+    time:
+    costs:
+    difficulty:
     readmore:
     - headline: Läs mer
       links:
-      - title: 
-        url: 
+      - title:
+        url:
     - headline: Testa
       links:
-      - title: 
-        url: 
+      - title:
+        url:
     - headline: Kontakt
       links:
-      - title: 
-        url: 
-    quote: 
-    source: 
+      - title:
+        url:
+    quote:
+    source:
     themes:
     - ''
     - ''
@@ -68,7 +71,7 @@ defaults:
     type: themes
   values:
     layout: theme
-    background-image: 
+    background-image:
 email: admin@digidemlab.org
 logo: "/public/logotyp.png"
 permalink: "/:title/"
