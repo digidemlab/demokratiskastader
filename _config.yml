@@ -14,6 +14,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  crew:
+    title: Crew
+    output: false
 defaults:
 - scope:
     path: ''

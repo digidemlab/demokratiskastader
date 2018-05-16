@@ -94,6 +94,12 @@ h5 {
   font-size: $font-size-h3;
 }
 
+.teaser-text {
+  &.-white {
+    color: $white;
+  }
+}
+
 // Paragraph body text
 .body-text {
   font-family: $font-family-sans-serif;
