@@ -159,6 +159,10 @@
 .page-intro {
   padding: 8rem 0;
 
+  @include media-breakpoint-down(sm) {
+    padding: 4rem 0;
+  }
+
   h1 {
     margin-bottom: 0;
     color: $purple;

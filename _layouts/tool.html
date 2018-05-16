@@ -3,10 +3,10 @@ layout: global
 ---
 
 <div class="container-full-width -dirty-white" {% if page.background-image %}style="background:linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5)),url({{page.background-image}})"{% endif %}>
+
+  {% include panel/menu.html %}
+
   <div class="container">
-
-    {% include panel/menu.html %}
-
     <div class="row">
       <div class="col-sm-12 col-md-6 offset-md-3 text-center">
 
