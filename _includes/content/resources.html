@@ -1,18 +1,16 @@
 <div class="container-full-width -dirty-white">
   <div class="container">
-    <div class="row">
-      <div class="resources">
-          {% for item in page.readmore %}
-          <div class="resources_category col-sm-4">
-            <h2 class="heading-b">{{item.headline}}</h2>
-            <ul class="list-unstyled">
-              {% for link in item.links %}
-                <li class="resources_item" dir="ltr"><a class="resources_link" href="{{link.url}}" target="_blank">{{link.title}}</a></li>
-              {% endfor %}
-            </ul>
-          </div>
-          {% endfor %}
-      </div>
+    <div class="row resources">
+      {% for item in page.readmore %}
+        <div class="resources_category col-sm-6 col-md-4">
+          <h2 class="heading-b">{{item.headline}}</h2>
+          <ul class="list-unstyled">
+            {% for link in item.links %}
+              <li class="resources_item" dir="ltr"><a class="resources_link" href="{{link.url}}" target="_blank">{{link.title}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>

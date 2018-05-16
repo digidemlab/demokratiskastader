@@ -7,12 +7,28 @@
   &.-black {
     color: $black;
   }
+
+  @include media-breakpoint-down(md) {
+    padding: 1.25rem 0;
+  }
 }
 
 @include media-breakpoint-down(md) {
   .menu-wrap {
     background: $black;
+    position: relative;
+    z-index: 999;
   }
+}
+
+.navbar-nav {
+  @include media-breakpoint-down(md) {
+    margin-top: 2rem;
+  }
+}
+
+.navbar-brand {
+  margin-top: -0.5rem;
 }
 
 .navbar-brand img {
@@ -29,12 +45,30 @@
 }
 
 .dropdown {
-  background: $black;
-  margin-right: 1.75rem;
+  @include media-breakpoint-up(lg) {
+    background: $black;
+    margin-right: 1.75rem;
+  }
+}
+
+.dropdown-menu {
+  @include media-breakpoint-down(md) {
+    min-width: auto;
+  }
 }
 
 .dropdown-item {
   background: url('/assets/images/svg/icon-arrow-small-white.svg') no-repeat 90% center;
+  @include media-breakpoint-down(md) {
+    white-space: inherit;
+    padding-left: 0;
+    background-position: 100% center;
+    border-bottom: 1px solid $dropdown-link-hover-color;
+
+    &.-first {
+      border-top: 1px solid $dropdown-link-hover-color;
+    }
+  }
 }
 
 .dropdown-item:hover {

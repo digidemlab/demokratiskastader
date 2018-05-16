@@ -18,18 +18,20 @@ layout: global
   </div>
 </div>
 
-<div class="container">
-  <div class="page-content">
-    <div class="row">
-      <div class="content col-sm-10 offset-sm-1 col-md-8 offset-md-2">
-        {{content}}
+<div class="container-full-width -dirty-white-light">
+  <div class="container -wide-margins">
+    <div class="page-content">
+      <div class="row">
+        <div class="content col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+          {{content}}
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container-full-width">
-  <div class="container">
+<div class="container-full-width -dirty-white-light">
+  <div class="container -wide-margins">
     <div class="row">
       <!-- Tools & Methods in Theme -->
       {% assign posts=site.posts | where:"themes", page.title %}
@@ -39,13 +41,16 @@ layout: global
     </div>
   </div>
 </div>
-<div class="container">
-  <div class="row">
-    <!-- Resources in Theme -->
-    {% assign resources=site.resources | where:"themes", page.title %}
-    {% for post in resources %}
-        {% include teaser/teaser_list.html %}
-    {% endfor %}
+
+<div class="container-full-width -gray-light">
+  <div class="container -wide-margins">
+    <div class="row">
+      <!-- Resources in Theme -->
+      {% assign resources=site.resources | where:"themes", page.title %}
+      {% for post in resources %}
+          {% include teaser/teaser_list.html %}
+      {% endfor %}
+    </div>
+    <hr>
   </div>
-  <hr>
 </div>
