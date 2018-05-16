@@ -138,12 +138,23 @@ img {
   }
 }
 
+a.card-link * {
+  transition: all 0.4s ease-in-out;
+
+}
+
 a.card-link:hover .card-bg-verktyg {
   background-position: 100% 100%;
 }
 
 a.card-link:hover .card-bg-metoder {
   background-position: 0% 100%;
+}
+
+a.card-link:hover .card {
+  transform: scale(1.04);
+  position: relative;
+  z-index: 1;
 }
 
 

@@ -32,12 +32,12 @@
 .heading-hero {
   @extend %heading;
   font-weight: normal;
-  font-size: $font-size-h1;
+  font-size: 1.625rem;
   line-height: 1.44em;
   color: $white;
   text-shadow: 0 0 1em #000;
 
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     font-size: $font-size-h1;
   }
 }
