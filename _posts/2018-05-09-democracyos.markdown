@@ -29,6 +29,7 @@ readmore:
   links:
   - title: Digidem Lab kan hjälpa dig att sätta upp DemocracyOS på din egen server
       eller en molntjänst
+    url: http://digidemlab.org/contact/
 quote: We are at a turning point in history where new technology is allowing us to
   rethink how we govern ourselves and what institutions we should build to reflect
   today’s technological, cultural and social realities and values.
