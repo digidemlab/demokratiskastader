@@ -1,10 +1,10 @@
 ---
 title: DemocracyOS
 date: 2018-05-09 08:30:00 +02:00
-weight: 3
 published: false
 categories:
 - verktyg
+weight: 3
 excerpt: Den första moderna demokrativerktyget
 ingress-text: DemocracyOS är ett enkelt verktyg för att sätta upp en omröstning och
   få medborgare att debattera på ett projekt eller ett lagförslag
@@ -38,8 +38,8 @@ quote: We are at a turning point in history where new technology is allowing us 
 source: Pia Mancini, one of DemocracyOS founders
 themes:
 - Genomföra medborgarförslag
--
--
+- 
+- 
 ---
 
 ## Vad är det och varför ska vi använda det?

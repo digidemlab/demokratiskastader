@@ -1,10 +1,10 @@
 ---
 title: Intressentpanel
 date: 2018-05-15 14:10:00 +02:00
-weight: 2
 published: false
 categories:
 - metoder
+weight: 2
 excerpt: Genomför konsultationer med viktiga intressenter inför ett nytt förslag.
 ingress-text: Genomför konsultationer med viktiga intressenter inför ett nytt förslag.
 time: Några månader till ett år beroende på fråga och antal remissrundor.

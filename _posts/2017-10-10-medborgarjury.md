@@ -1,12 +1,13 @@
 ---
 title: Medborgarjury
 date: 2017-10-10 00:00:00 +02:00
-weight: 1
 categories:
 - metoder
-excerpt: 'Slumpvis utvalda medborgare fattar beslut och bidrar till bredare
-  demografisk representation.'
-ingress-text: 'Slumpvis utvalda och demografiskt representativa medborgare diskuterar förslag för kommunen. '
+weight: 1
+excerpt: Slumpvis utvalda medborgare fattar beslut och bidrar till bredare demografisk
+  representation.
+ingress-text: 'Slumpvis utvalda och demografiskt representativa medborgare diskuterar
+  förslag för kommunen. '
 time: Ca 3 månader varav 40 timmar mötestid för juryn.
 costs: |-
   Facilitator.
@@ -19,7 +20,8 @@ difficulty: Medelsvår.
 readmore:
 - headline: Läs mer
   links:
-  - title: Medborgarjurys i kombination med digitala plattformar - för Madrid stad (En)
+  - title: Medborgarjurys i kombination med digitala plattformar - för Madrid stad
+      (En)
     url: https://sorteopolitico.files.wordpress.com/2017/12/manual1_hybriddemocracy.pdf
   - title: Slumpvis representation (En)
     url: https://static1.squarespace.com/static/55af0533e4b04fd6bca65bc8/t/5aafb4b66d2a7312c182b69d/1521464506233/Lotto_Paper_v1.1.2.pdf
