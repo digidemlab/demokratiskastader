@@ -4,8 +4,20 @@
   font-weight: bold;
   white-space: nowrap;
 
-  &.-black {
-    color: $black;
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+
+
+  @include media-breakpoint-up(lg) {
+    &.-black {
+      color: $black;
+
+      &:hover {
+        color: $black;
+      }
+    }
   }
 
   @include media-breakpoint-down(md) {

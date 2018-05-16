@@ -1,33 +1,37 @@
-<nav class="navbar navbar-expand-lg navbar-dark p-lg-0 px-0">
-  <a class="navbar-brand mr-0 mr-sm-2" href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/png/logotyp.png" width="478" height="54"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<div class="menu-wrap">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark p-lg-0 px-0">
+      <a class="navbar-brand mr-0 mr-sm-2" href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/png/logotyp.png" width="478" height="54"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto text-center">
-      <li class="nav-item dropdown rounded-bottom">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Vi vill
-        </a>
-        <div class="dropdown-menu rounded-bottom text-left" aria-labelledby="navbarDropdown">
-          {% for item in site.themes %}
-            <a class="dropdown-item {% if forloop.first %}-first{% endif %}" href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
-          {% endfor %}
-        </div>
-      </li>
-      
-      {% if page.categories contains 'verktyg' or page.categories contains 'metoder' %}
-        {% unless page.background-image %}
-          {% assign class="-black" %}
-        {% endunless %}
-      {% endif %}
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item dropdown rounded-bottom">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Vi vill
+            </a>
+            <div class="dropdown-menu rounded-bottom text-left" aria-labelledby="navbarDropdown">
+              {% for item in site.themes %}
+                <a class="dropdown-item {% if forloop.first %}-first{% endif %}" href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
+              {% endfor %}
+            </div>
+          </li>
 
-      <li class="nav-item"><a class="nav-link {{class}}" href="{{site.baseurl}}/verktyg">Verktyg</a></li>
-      <li class="nav-item"><a class="nav-link {{class}}" href="{{site.baseurl}}/metoder">Metoder</a></li>
-      <li class="nav-item"><a class="nav-link {{class}} d-lg-none" href="{{site.baseurl}}/resurser">Resurser</a></li>
-      <li class="nav-item"><a class="nav-link {{class}} pr-0" href="{{site.baseurl}}/om">Om <span class=" d-lg-none">Demokratiska Städer</span></a></li>
-      <li class="nav-item"><a class="nav-link {{class}} d-lg-none" href="{{site.baseurl}}/kontakt">Kontakt</a></li>
-    </ul>
+          {% if page.categories contains 'verktyg' or page.categories contains 'metoder' %}
+            {% unless page.background-image %}
+              {% assign class="-black" %}
+            {% endunless %}
+          {% endif %}
+
+          <li class="nav-item"><a class="nav-link {{class}}" href="{{site.baseurl}}/verktyg">Verktyg</a></li>
+          <li class="nav-item"><a class="nav-link {{class}}" href="{{site.baseurl}}/metoder">Metoder</a></li>
+          <li class="nav-item"><a class="nav-link {{class}} d-lg-none" href="{{site.baseurl}}/resurser">Resurser</a></li>
+          <li class="nav-item"><a class="nav-link {{class}} pr-0" href="{{site.baseurl}}/om">Om <span class=" d-lg-none">Demokratiska Städer</span></a></li>
+          <li class="nav-item"><a class="nav-link {{class}} d-lg-none" href="{{site.baseurl}}/kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
   </div>
-</nav>
+</div>
