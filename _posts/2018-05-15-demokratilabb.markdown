@@ -7,6 +7,9 @@ excerpt: Skapa nya digitala verktyg för deltagande genom ett demokratilabb
 ingress-text: Genom ett labb kan kommuner samarbeta med utvecklare, designers och
   civilsamhälle för att utveckla nya digitala verktyg för deltagande
 image: "/uploads/38312837631_13b0d78807_z.jpg"
+time: Kontinuerligt arbete.
+costs: Personalstyrka och en fysisk mötesplats.
+difficulty: Lätt till avancerat.
 readmore:
 - headline: Läs mer
   links:
