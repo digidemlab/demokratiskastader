@@ -7,6 +7,6 @@ excerpt: Nesta studerar flera nationella exempel (Spanien, Island, Brasil) och p
   metoderna och verktygen de använder
 themes:
 - Genomföra en medborgarbudget
-- Genomföra medborgarförslag
+- Generera medborgarförslag
 ---
 

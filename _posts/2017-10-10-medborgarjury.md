@@ -44,7 +44,7 @@ quote: Jag tror att vi aldrig hade kommit dit vi är idag med liberaliseringen a
 source: Kate O´Conell, politiker i Irlands styrande parti
 themes:
 - Hitta nya former för medborgardeltagande
-- Genomföra medborgarförslag
+- Generera medborgarförslag
 ---
 
 ## Vad är det och varför använda det?

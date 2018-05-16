@@ -103,7 +103,6 @@ h5 {
 // Paragraph body text
 .body-text {
   font-family: $font-family-sans-serif;
-  font-size: 1.125em;
   line-height: 1.750em;
   margin-bottom: 1.125em;
   color: $black;
@@ -125,12 +124,12 @@ h5 {
   }
 
   @include media-breakpoint-up(md) {
-    font-size: 1.375em;
+    font-size: 1.125rem;
   }
 
   &.-small {
     @include media-breakpoint-up(md) {
-      font-size: 1.250em;
+      font-size: 1rem;
       line-height: 1.750em;
     }
   }
@@ -138,6 +137,10 @@ h5 {
   &.-xsmall {
     font-size: 0.875em;
     line-height: 1.750em;
+  }
+
+  a {
+    text-decoration: underline;
   }
 }
 
