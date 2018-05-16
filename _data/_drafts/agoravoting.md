@@ -1,6 +1,6 @@
 ---
 title: Agora Voting
-date: 2016-11-28 09:32:09.073000000 Z
+date: 2016-11-28 10:32:09.073000000 +01:00
 categories:
 - Decide on an issue
 description: decide on an issue by exploring arguments and objectives
@@ -11,8 +11,8 @@ video: https://www.youtube.com/watch?v=eZDBMfe3iPE
 participants: Small to medium sized groups
 preparations: Sign up or log in with Facebook to create a group
 difficulty: Easy. Use on website or iPhone or Android app
-quote:
-source:
+quote: 
+source: 
 website: http://loomio.org/
 documentation: https://help.loomio.org
 twitter: Loomio
