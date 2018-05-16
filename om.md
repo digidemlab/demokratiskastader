@@ -3,6 +3,7 @@ title: Om Demokratiska Städer
 excerpt: Resurser för att ta medborgardialog till nästa steg.
 ingress-text: Verktyg och metoder för att skapa framtidens Demokratiska Städer.
 layout: page
+background-image: "/assets/images/jpg/about-desktop.jpg"
 ---
 
 Få tillgång till användarvänliga, pålitliga och anpassningsbara digitala verktyg och plattformar som följer riktlinjerna för [etisk design](https://2017.ind.ie/ethical-design/)  och internationella [digitala principer](https://digitalprinciples.org/) .
