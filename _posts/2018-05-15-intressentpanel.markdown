@@ -4,6 +4,11 @@ date: 2018-05-15 14:10:00 +02:00
 categories:
 - metoder
 excerpt: Genomför konsultationer med viktiga intressenter inför ett nytt förslag
+time: Några månader till ett år beroende på fråga och antal remissrundor.
+costs: |
+  Facilitatorer/Moderatorer till forumen online och offline.
+  Tjänstepersoner som planerar och håller i processen.
+difficulty: Medelsvårt.
 quote: "If you engage early enough, you can’t go wrong. If you engage when you have
   no idea how to solve the issue, then you can’t go wrong. If you engage with already
   a draft, it would take very, very high-skilled rhetoric to make this \nwork. That’s
