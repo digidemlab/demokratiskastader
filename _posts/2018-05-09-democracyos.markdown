@@ -1,6 +1,7 @@
 ---
 title: DemocracyOS
 date: 2018-05-09 08:30:00 +02:00
+published: false
 categories:
 - verktyg
 excerpt: Den första moderna demokrativerktyget
