@@ -2,7 +2,7 @@
 layout: global
 ---
 
-<div class="container-full-width -gray">
+<div class="container-full-width -gray" {% if page.background-image %}style="background-size: cover;background-position: center center;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url({{page.background-image}});"{% endif %}>
 
   {% include panel/menu.html %}
 
