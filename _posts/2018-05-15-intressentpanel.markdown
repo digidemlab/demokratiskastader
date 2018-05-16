@@ -26,4 +26,4 @@ Konsultationerna sker i fyra steg;
 3. Ett live streamat fysiskt möte hålls tillsammans med viktiga intressenter som lägger fram rekommendationer, och 
 4. Rekommendationerna ges till beslutsfattare som antingen avslår eller implementerar förslagen.
 
-Inför varje konsultation läggs all relevant information upp på plattformen och en tydlig och transparent tidslinje för de olika stegen. Facilitatorer bjuder in relevanta intressenter som i sin tur kan bjuda in andra. Exempelvis i konsultationen för ny lagstiftning kring samåkning bjöds taxichaufförer, fackförbund, privata passagerare, forskare, industriexperter och företagsrepresentanter in. 
+Inför varje konsultation läggs all relevant information upp på plattformen tillsammans med en tydlig och transparent tidslinje för de olika stegen. Facilitatorer bjuder in relevanta intressenter som i sin tur kan bjuda in andra. I konsultationen för ny lagstiftning kring samåkning bjöds exempelvis taxichaufförer, fackförbund, privata passagerare, forskare, industriexperter och företagsrepresentanter in. 
