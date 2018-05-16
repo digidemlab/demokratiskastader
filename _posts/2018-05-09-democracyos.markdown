@@ -1,6 +1,7 @@
 ---
 title: DemocracyOS
 date: 2018-05-09 08:30:00 +02:00
+weight: 3
 published: false
 categories:
 - verktyg
@@ -37,16 +38,14 @@ quote: We are at a turning point in history where new technology is allowing us 
 source: Pia Mancini, one of DemocracyOS founders
 themes:
 - Genomföra medborgarförslag
-- 
-- 
+-
+-
 ---
 
-## Vad är det och varför använda det?
-
+## Vad är det och varför ska vi använda det?
 DemocracyOS är en av de första avancerade digitala demokrativerktygen. Utvecklad av den Partido de la Red i Argentina sedan 2012, den tillåter medborgare att diskutera om ett lagförslag eller ett projekt och att rösta. I SydAmerika har många föreningar och populära rörelser använt verktyget för att samla idéer och åsikter om projekt. Men förtroendevalda har också använt det för medborgarförslag och gemensam stadsplanering (se Nanterre nedan).
 
 ## Hur kan jag använda det
-
 * Skapa ett konto på [DemocracyOS.org](https://app.democracyos.org/). Du kan också installera mjukvaran på din egen server eller molntjänst.
 * Skapa en *Democracy* och ett utrymme för din debatt.
 * Lägg till viktiga länker och information och bestämma när omröstningen ska stänga
