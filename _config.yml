@@ -73,7 +73,7 @@ defaults:
     layout: theme
     background-image: 
 email: admin@digidemlab.org
-logo: "/public/logotyp.png"
+logo: "/assets/png/logotyp.png"
 permalink: "/:title/"
 baseurl: ''
 url: http://demokratiskastader.se
@@ -84,11 +84,12 @@ twitter:
 facebook:
   publisher: digidemlab
 social:
+  name: Digidem Lab
   links:
   - https://twitter.com/digidemlab
   - https://www.facebook.com/digidemlab
   - https://www.instagram.com/digidemlab/
-  - https://github.com/digidemlab/demokratiskastader
+  - https://github.com/digidemlab
 markdown: kramdown
 exclude:
 - ".sass-cache"
