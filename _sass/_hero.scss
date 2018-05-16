@@ -9,9 +9,6 @@
 }
 
 .hero-wrap {
-//	min-width: 280px;
-	margin: auto;
-	position: relative;
 	background: $black;
 	@include set-colored-bg-image($black, 0.6, '../images/jpg/hero-demokratiskastader-desktop.jpg');
 	background-size: cover;
