@@ -30,12 +30,16 @@ a:hover .card-title {
     display: block;
     border: solid 1px $gray-light;
     border-radius: 0.375em;
-    padding: 2.75rem 3rem 2.75rem 3rem;
+    padding: 2.75rem 3rem;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24);
     margin: 1.25em 0;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     vertical-align: middle;
+
+    @include media-breakpoint-down(sm) {
+      padding: 2rem 1.25rem;
+    }
 
     &:hover,
     &:focus,
@@ -56,6 +60,7 @@ a:hover .card-title {
   }
 
   font-size: $font-size-h3;
+
   line-height: 1.50em;
   text-decoration: none;
   font-family: $font-family-sans-serif;
@@ -63,8 +68,8 @@ a:hover .card-title {
   margin: 0;
   font-weight: normal;
 
-  @include media-breakpoint-up(md) {
-    font-size: $font-size-h3;
+  @include media-breakpoint-down(sm) {
+    font-size: $font-size-base ;
   }
 
   &_arrow {
@@ -72,6 +77,10 @@ a:hover .card-title {
     float: right;
     height: 1.875rem;
     width: 1.25rem;
+    @include media-breakpoint-down(sm) {
+      height: 1.5rem;
+      width: 1rem;
+    }
   }
 }
 
