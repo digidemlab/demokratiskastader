@@ -163,14 +163,14 @@ a.card-link:hover .card {
 .gradient {
 
   &.-full {
-    height: 22rem;
     background: url('/assets/images/png/gradient4.png');
-    background-size: cover;
+    background-size: contain;
+    height: 22rem;
   }
 
   &.-border {
     background: url('/assets/images/png/gradient3.png');
-    background-size: cover;
+    background-size: contain;
     height: 1rem;
   }
 }
