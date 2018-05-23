@@ -1,36 +1,12 @@
 ---
 title: Verktyg
-layout: global
+layout: view
 ingress-text: Användarvänliga, pålitliga och anpassningsbara digitala verktyg och
   plattformar som följer riktlinjerna för etisk design och internationella digitala
   principer.
+icon: '/assets/images/svg/icon-keyhole.svg'
 ---
 
-<div class="container-full-width -gray">
-
-  {% include panel/menu.html %}
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 offset-md-3 text-center">
-        <div class="page-intro">
-          <img class="icon-header" src="{{site.baseurl}}/assets/images/svg/icon-keyhole.svg">
-          <h1 class="heading-a -white">{{page.title}}</h1>
-          <p class="summary -white">{{page.ingress-text}}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="container-full-width -gray">
-  <div class="container -wide-margins">
-    <div class="row">
-      {% for post in site.categories.verktyg %}
-        {% include teaser/teaser.html %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
-<div class="container-full-width gradient -border"></div>
+{% for post in site.categories.verktyg %}
+  {% include teaser/teaser.html %}
+{% endfor %}

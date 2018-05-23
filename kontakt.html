@@ -1,33 +1,10 @@
 ---
 title: Kontakta oss
-layout: global
+layout: view
 ingress-text: Vill ni veta mer om metoder och verktyg för framtidens demokratiska
   städer? Kontakta oss så berättar vi mer!
 ---
 
-<div class="container-full-width -gray">
-
-  {% include panel/menu.html %}
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 offset-md-3 text-center">
-        <div class="page-intro">
-          <h1 class="heading-a -white">{{page.title}}</h1>
-          <p class="summary -white">{{page.ingress-text}}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container-full-width -gray-light">
-  <div class="container -wide-margins">
-    <div class="row">
-      {% for post in site.crew %}
-        {% include teaser/teaser_crew.html %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
-<div class="container-full-width gradient -border"></div>
+{% for post in site.crew %}
+  {% include teaser/teaser_crew.html %}
+{% endfor %}

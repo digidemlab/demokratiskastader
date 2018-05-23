@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row category-lead">
+    <div class="col-sm-12">
+      <!-- Themes -->
+      {% for item in site.themes %}
+        {% if page.themes contains item.title %}
+          <div class="theme-listing">
+            <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="theme-listing_arrow">
+            <a class="theme-listing_item" href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>&nbsp;&nbsp;
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

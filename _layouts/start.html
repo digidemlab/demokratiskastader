@@ -16,86 +16,92 @@ layout: global
 </div>
 
 <a id="main-content"></a>
+
 <main id="main">
-<div class="container-full-width gradient -border"></div>
-<div class="container">
-  <div class="tool-listing">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2 class="heading-a -black mb-3">Vi vill…</h2>
+
+  <div class="container-full-width gradient -border"></div>
+
+  <div class="container">
+
+    <div class="tool-listing">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2 class="heading-a -black mb-3">Vi vill…</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-8 offset-md-2">
+          <ul class="list-unstyled">
+            {% for item in site.themes %}
+              <li>
+           	    <a class="tool-listing_item" href="{{site.baseurl}}{{item.url}}">
+                  {{item.title}}
+                  <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-12 col-md-8 offset-md-2">
-        <ul class="list-unstyled">
-          {% for item in site.themes %}
-            <li>
-         	    <a class="tool-listing_item" href="{{site.baseurl}}{{item.url}}">
-                {{item.title}}
-                <img src="{{site.baseurl}}/assets/images/svg/icon-arrow.svg" alt="" class="tool-listing_arrow">
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
   </div>
-</div>
 
-<div class="container-full-width -gray">
-  <div class="container -wide-margins">
-    <div class="row">
-      <div class="heading-block col-sm-12">
-        <h2 class="heading-c -white -icon-header -icon-idea">Metoder  <span><img class="icon-header-side align-text-bottom" src="{{site.baseurl}}/assets/images/svg/icon-idea.svg"></span></h2>
+  <div class="container-full-width -gray">
+    <div class="container -wide-margins">
+      <div class="row">
+        <div class="heading-block col-sm-12">
+          <h2 class="heading-c -white -icon-header -icon-idea">Metoder  <span><img class="icon-header-side align-text-bottom" src="{{site.baseurl}}/assets/images/svg/icon-idea.svg"></span></h2>
+        </div>
       </div>
-    </div>
-    <div class="row mb-3">
-      {% for post in site.categories.metoder limit:3 %}
-        {% include teaser/teaser.html %}
-      {% endfor %}
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <!-- <p class="text-right"><a class="read-more" href="{{site.baseurl}}/metoder">Fler metoder</a></p> -->
+      <div class="row mb-3">
+        {% for post in site.categories.metoder limit:3 %}
+          {% include teaser/teaser.html %}
+        {% endfor %}
       </div>
-    </div>
-    <div class="row">
-      <div class="heading-block col-sm-12">
-        <h2 class="heading-c -white">Verktyg <span><img class="icon-header-side align-text-bottom" src="{{site.baseurl}}/assets/images/svg/icon-keyhole.svg"></span></h2>
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- <p class="text-right"><a class="read-more" href="{{site.baseurl}}/metoder">Fler metoder</a></p> -->
+        </div>
       </div>
-    </div>
-    <div class="row mb-3">
-      {% for post in site.categories.verktyg limit:3%}
-        {% include teaser/teaser.html %}
-      {% endfor %}
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <!-- <p class="text-right"><a class="read-more" href="{{site.baseurl}}/verktyg">Fler verktyg</a></p> -->
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="container-full-width -gray-light">
-  <div class="container pt-2 pb-4">
-    <div class="row">
-      <div class="heading-block col-sm-12">
-        <h2 class="heading-c -white">Resurser <span><img class="icon-header-side align-text-bottom" src="{{site.baseurl}}/assets/images/svg/icon-books.svg"></span></h2>
+      <div class="row">
+        <div class="heading-block col-sm-12">
+          <h2 class="heading-c -white">Verktyg <span><img class="icon-header-side align-text-bottom" src="{{site.baseurl}}/assets/images/svg/icon-keyhole.svg"></span></h2>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      {% for post in site.resources limit:2 %}
-        {% include teaser/teaser_list.html %}
-      {% endfor %}
-    </div>
-    <div class="row">
-      <div class="col-sm-12">
-        <p class="text-right"><a class="read-more" href="{{site.baseurl}}/resurser">Se fler exempel på resurser</a></p>
+      <div class="row mb-3">
+        {% for post in site.categories.verktyg limit:3%}
+          {% include teaser/teaser.html %}
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- <p class="text-right"><a class="read-more" href="{{site.baseurl}}/verktyg">Fler verktyg</a></p> -->
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+  <div class="container-full-width -gray-light">
+    <div class="container pt-2 pb-4">
+      <div class="row">
+        <div class="heading-block col-sm-12">
+          <h2 class="heading-c -white">Resurser <span><img class="icon-header-side align-text-bottom" src="{{site.baseurl}}/assets/images/svg/icon-books.svg"></span></h2>
+        </div>
+      </div>
+      <div class="row">
+        {% for post in site.resources limit:2 %}
+          {% include teaser/teaser_list.html %}
+        {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="text-right"><a class="read-more" href="{{site.baseurl}}/resurser">Se fler exempel på resurser</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </main>

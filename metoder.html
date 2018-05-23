@@ -1,34 +1,11 @@
 ---
 title: Metoder
-layout: global
+layout: view
 ingress-text: Internationellt beprövade metoder för att involvera medborgarna i alla
   steg i beslutsprocessen.
+icon: '/assets/images/svg/icon-idea.svg'
 ---
 
-<div class="container-full-width -gray">
-
-  {% include panel/menu.html %}
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 offset-md-3 text-center">
-        <div class="page-intro">
-          <img class="icon-header" src="{{site.baseurl}}/assets/images/svg/icon-idea.svg">
-          <h1 class="heading-a -white">{{page.title}}</h1>
-          <p class="summary -white">{{page.ingress-text}}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container-full-width -gray">
-  <div class="container -wide-margins">
-    <div class="row">
-      {% for post in site.categories.metoder %}
-        {% include teaser/teaser.html %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
-<div class="container-full-width gradient -border"></div>
+{% for post in site.categories.metoder %}
+  {% include teaser/teaser.html %}
+{% endfor %}
