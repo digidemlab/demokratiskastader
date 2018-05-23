@@ -6,13 +6,16 @@
     <div class="row">
       <div class="col-sm-12 col-md-6 offset-md-3 text-center">
 
-        {% if page.background-image %}
-          {% assign class="-white" %}
-        {% else %}
+        {% assign class="-white" %}
+
+        {% if page.background-image == null and include.class == "-dirty-white"%}
           {% assign class="-grey-base" %}
         {% endif %}
 
         <div class="page-intro">
+          {% if page.icon %}
+            <img class="icon-header" src="{{site.baseurl}}{{page.icon}}">
+          {% endif %}
           <h1 class="heading-a {{class}}">{{page.title}}</h1>
           <p class="summary {{class}}">{{page.ingress-text}}</p>
         </div>
