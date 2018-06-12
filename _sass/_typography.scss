@@ -33,7 +33,7 @@
   @extend %heading;
   font-weight: normal;
   font-size: 1.625rem;
-  line-height: 1.44em;
+  line-height: 1.31em;
   color: $white;
   text-shadow: 0 0 1em #000;
 
@@ -45,11 +45,14 @@
 // Heading a
 .heading-a {
   @extend %heading;
-  font-size: $font-size-h2;
+  font-size: 1.625rem;
   line-height: 1.3em;
+
+  margin: 3.25rem 0 1.5rem;
 
   @include media-breakpoint-up(md) {
     font-size: $font-size-h2;
+    margin: 3.25rem 0 2.25rem;
   }
 }
 
@@ -68,9 +71,8 @@
 .heading-c,
 .content h3 {
   @extend %heading;
-  font-size: $font-size-h2;
-  margin: 1rem 0;
-  position: relative;
+  font-size: 1.625rem;
+  margin: 2.5rem 0 3.5rem;
 
   @include media-breakpoint-up(md) {
     font-size: $font-size-h2;
@@ -79,7 +81,11 @@
 
 h3 {
   @extend %heading;
-  font-size: $font-size-h3;
+  font-size: 1.5rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-h3;
+  }
 }
 
 h4 {
@@ -97,6 +103,10 @@ h5 {
 .teaser-text {
   &.-white {
     color: $white;
+
+    a {
+      color: $white;
+    }
   }
 }
 

@@ -24,7 +24,12 @@ a:hover .card-title {
 
 // Tool listing
 .tool-listing {
-  padding: 7rem 0rem 14rem;
+  padding-bottom: 8rem;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 6.75rem;
+    padding-bottom: 14rem;
+  }
 
   &_item {
     display: block;
@@ -84,36 +89,6 @@ a:hover .card-title {
   }
 }
 
-
-
-.footer-link {
-  color: $white;
-  letter-spacing: 0.05em;
-  font-size: $font-size-h4;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 0.05em 0.5em 0.15em;
-  margin: 0 1em;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-
-  &.-small {
-    font-size: $font-size-sm;
-    padding: 0.05em 0em 0.15em;
-    margin: 0;
-    text-transform: none;
-    font-weight: normal;
-  }
-
-  &:hover,
-  &:focus,
-  &:active {
-    color: $black;
-    background-color: $white;
-    text-decoration: none;
-  }
-}
 
 .theme-listing {
   display: inline-block;

@@ -8,7 +8,7 @@ layout: global
 
   <div class="container h-75 hero-container">
     <div class="row h-100 justify-content-center align-items-center">
-      <div class="col-xl-8 col-lg-10 text-center hero-caption ">
+      <div class="col-xl-8 col-lg-10 col-11 text-center hero-caption ">
         <h1 class="heading-hero">{{page.summary}}</h1>
       </div>
     </div>
@@ -26,12 +26,12 @@ layout: global
     <div class="tool-listing">
       <div class="row">
         <div class="col-sm-12 text-center">
-          <h2 class="heading-a -black mb-3">När ni ska…</h2>
+          <h2 class="heading-a -black mt-lg-0">När ni ska…</h2>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-sm-12 col-md-8 offset-md-2">
+        <div class="col-sm-12 col-lg-8 offset-lg-2">
           <ul class="list-unstyled">
             {% for item in site.themes %}
               <li>
@@ -55,14 +55,14 @@ layout: global
           <h2 class="heading-c -white -icon-header -icon-idea">Metoder  <span><img class="icon-header-side align-text-bottom" src="{{site.baseurl}}/assets/images/svg/icon-idea.svg"></span></h2>
         </div>
       </div>
-      <div class="row mb-3">
+      <div class="row mb-md-3">
         {% for post in site.categories.metoder limit:3 %}
           {% include teaser/teaser.html %}
         {% endfor %}
       </div>
       <div class="row">
-        <div class="col-sm-12">
-          <!-- <p class="text-right"><a class="read-more" href="{{site.baseurl}}/metoder">Fler metoder</a></p> -->
+        <div class="col">
+          <p class="text-right"><a class="read-more" href="{{site.baseurl}}/metoder">Fler metoder</a></p>
         </div>
       </div>
 
@@ -77,8 +77,8 @@ layout: global
         {% endfor %}
       </div>
       <div class="row">
-        <div class="col-sm-12">
-          <!-- <p class="text-right"><a class="read-more" href="{{site.baseurl}}/verktyg">Fler verktyg</a></p> -->
+        <div class="col">
+          <p class="text-right"><a class="read-more" href="{{site.baseurl}}/verktyg">Fler verktyg</a></p>
         </div>
       </div>
     </div>
@@ -98,7 +98,7 @@ layout: global
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <p class="text-right"><a class="read-more" href="{{site.baseurl}}/resurser">Se fler exempel på resurser</a></p>
+          <p class="text-right"><a class="read-more" href="{{site.baseurl}}/resurser">Fler resurser</a></p>
         </div>
       </div>
     </div>

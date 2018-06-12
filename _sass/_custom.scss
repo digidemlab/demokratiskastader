@@ -68,10 +68,18 @@ img {
     padding-top: 4rem;
     padding-bottom: 4rem;
 
-    @include media-breakpoint-down(sm) {
-      padding-top: 2rem;
-      padding-bottom: 2rem;
+    @include media-breakpoint-down(md) {
+      padding-top: 2.5rem;
+      padding-bottom: 3.5rem;
     }
+  }
+}
+
+.-page-margin {
+  padding-bottom: 7rem;
+
+  @include media-breakpoint-down(md) {
+    padding-bottom: 5rem;
   }
 }
 
@@ -191,5 +199,9 @@ a.card-link:hover .card {
 p {
   &.-white {
     color: $white;
+
+    a {
+      color: $white;
+    }
   }
 }

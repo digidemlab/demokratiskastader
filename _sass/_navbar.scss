@@ -3,12 +3,12 @@
   letter-spacing: 0.06em;
   font-weight: bold;
   white-space: nowrap;
+  color: $white;
 
   &:hover,
   &:active {
     text-decoration: underline;
   }
-
 
   @include media-breakpoint-up(lg) {
     &.-black {
@@ -22,6 +22,15 @@
 
   @include media-breakpoint-down(md) {
     padding: 1.25rem 0;
+  }
+}
+
+
+.footer .nav-item .nav-link {
+  padding: 2rem;
+
+  @include media-breakpoint-down(md) {
+    padding: 0.875rem;
   }
 }
 
