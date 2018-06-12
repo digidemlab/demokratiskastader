@@ -1,24 +1,23 @@
-<div class="container-full-width {{include.class}}" {% if page.background-image %}style="background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url({{page.background-image}}) center center;background-size:cover;"{% endif %}>
+<div class="container-full-width page-header {{include.class}}" {% if page.background-image %}style="background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url({{page.background-image}}) center center;background-size:cover;"{% endif %}>
 
-  {% include panel/menu.html %}
+  {% if page.background-image == null and include.class == "-dirty-white"%}
+    {% assign class="-grey-base" %}
+    {% include panel/menu.html menu-class="-black" %}
+  {% else %}
+    {% assign class="-white" %}
+    {% include panel/menu.html %}
+  {% endif %}
 
-  <div class="container">
-    <div class="row">
-      <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+  <div class="container h-75">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col col-md-10 col-lg-8 col-xl-6 text-center">
 
-        {% assign class="-white" %}
-
-        {% if page.background-image == null and include.class == "-dirty-white"%}
-          {% assign class="-grey-base" %}
-        {% endif %}
-
-        <div class="page-intro text-center">
           {% if page.icon %}
             <img class="icon-header" src="{{site.baseurl}}{{page.icon}}">
           {% endif %}
           <h1 class="heading-a {{class}} mt-0">{{page.title}}</h1>
           <p class="summary {{class}}">{{page.ingress-text}}</p>
-        </div>
+
       </div>
     </div>
   </div>

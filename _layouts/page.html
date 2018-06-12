@@ -2,7 +2,7 @@
 layout: global
 ---
 
-{% include content/page-header.html class="-gray" %}
+{% include content/page-header.html class="-dirty-white" %}
 
 <div class="container-full-width -dirty-white-light">
   {% include content/body-text.html %}
@@ -10,7 +10,12 @@ layout: global
 
 {% if page.is_theme %}
   <div class="container-full-width -dirty-white-light">
-    <div class="container -wide-margins">
+    <div class="container -wide-margins pt-0">
+      <div class="row">
+        <div class="col">
+          <h2 class="heading-c mt-0">Verktyg och metoder</h2>
+        </div>
+      </div>
       <div class="row">
         <!-- Tools & Methods in Theme -->
         {% assign posts=site.posts | where:"themes", page.title %}
@@ -19,21 +24,26 @@ layout: global
         {% endfor %}
       </div>
     </div>
-  </div>
 
-  {% assign resources=site.resources | where:"themes", page.title %}
-  {% if resources.size > 0 %}
-    <div class="container-full-width -gray-light">
-      <div class="container -wide-margins">
+      {% assign resources=site.resources | where:"themes", page.title %}
+      {% if resources.size > 0 %}
+      <div class="container -wide-margins pt-0">
+
+        <div class="row">
+          <div class="col">
+            <h2 class="heading-c">Resurser</h2>
+          </div>
+        </div>
         <div class="row">
           <!-- Resources in Theme -->
           {% for post in resources %}
-              {% include teaser/teaser_list.html %}
+              {% include teaser/teaser_list.html class="-black"%}
           {% endfor %}
         </div>
-        <hr>
-      </div>
+      {% endif %}
+
     </div>
-  {% endif %}
+  </div>
+
 
 {% endif %}

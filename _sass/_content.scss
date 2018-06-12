@@ -144,9 +144,9 @@
 
 // Intro on tool-page and page-page
 .page-intro {
-  padding: 8rem 0 5rem;
+  padding: 6rem 0 5rem;
 
   @include media-breakpoint-down(md) {
-    padding: 5rem 0;
+    padding: 3rem 0;
   }
 }

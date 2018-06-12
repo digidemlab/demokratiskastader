@@ -19,17 +19,11 @@
             </div>
           </li>
 
-          {% if page.categories contains 'verktyg' or page.categories contains 'metoder' %}
-            {% unless page.background-image %}
-              {% assign class="-black" %}
-            {% endunless %}
-          {% endif %}
-
-          <li class="nav-item"><a class="nav-link {{class}}" href="{{site.baseurl}}/verktyg">Verktyg</a></li>
-          <li class="nav-item"><a class="nav-link {{class}}" href="{{site.baseurl}}/metoder">Metoder</a></li>
-          <li class="nav-item"><a class="nav-link {{class}} d-lg-none" href="{{site.baseurl}}/resurser">Resurser</a></li>
-          <li class="nav-item"><a class="nav-link {{class}} pr-0" href="{{site.baseurl}}/om">Om <span class=" d-lg-none">Demokratiska Städer</span></a></li>
-          <li class="nav-item"><a class="nav-link {{class}} d-lg-none" href="{{site.baseurl}}/kontakt">Kontakt</a></li>
+          <li class="nav-item"><a class="nav-link {{include.menu-class}}" href="{{site.baseurl}}/verktyg">Verktyg</a></li>
+          <li class="nav-item"><a class="nav-link {{include.menu-class}}" href="{{site.baseurl}}/metoder">Metoder</a></li>
+          <li class="nav-item"><a class="nav-link {{include.menu-class}} d-lg-none" href="{{site.baseurl}}/resurser">Resurser</a></li>
+          <li class="nav-item"><a class="nav-link {{include.menu-class}} pr-0" href="{{site.baseurl}}/om">Om <span class=" d-lg-none">Demokratiska Städer</span></a></li>
+          <li class="nav-item"><a class="nav-link {{include.menu-class}} d-lg-none" href="{{site.baseurl}}/kontakt">Kontakt</a></li>
         </ul>
       </div>
     </nav>

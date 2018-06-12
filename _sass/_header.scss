@@ -57,3 +57,14 @@
   vertical-align: baseline;
   display: inline;
 }
+
+.page-header {
+  min-height: 30rem;
+  height: 30rem;
+
+  @include media-breakpoint-up(md) {
+    min-height: 34.5rem;
+    height: 34.5rem;
+
+  }
+}

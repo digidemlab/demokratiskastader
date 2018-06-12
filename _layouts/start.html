@@ -25,13 +25,13 @@ layout: global
 
     <div class="tool-listing">
       <div class="row">
-        <div class="col-sm-12 text-center">
+        <div class="col text-center">
           <h2 class="heading-a -black mt-lg-0">När ni ska…</h2>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-sm-12 col-lg-8 offset-lg-2">
+        <div class="col col-lg-8 offset-lg-2">
           <ul class="list-unstyled">
             {% for item in site.themes %}
               <li>
@@ -87,13 +87,13 @@ layout: global
   <div class="container-full-width -gray-light">
     <div class="container pt-2 pb-4">
       <div class="row">
-        <div class="heading-block col-sm-12">
+        <div class="heading-block col">
           <h2 class="heading-c -white">Resurser <span><img class="icon-header-side align-text-bottom" src="{{site.baseurl}}/assets/images/svg/icon-books.svg"></span></h2>
         </div>
       </div>
       <div class="row">
         {% for post in site.resources limit:2 %}
-          {% include teaser/teaser_list.html %}
+          {% include teaser/teaser_list.html class="-white" %}
         {% endfor %}
       </div>
       <div class="row">
