@@ -12,10 +12,10 @@
 
   @include media-breakpoint-up(lg) {
     &.-black {
-      color: $black;
+      color: $gray-base;
 
       &:hover {
-        color: $black;
+        color: $gray-base;
       }
     }
   }

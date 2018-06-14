@@ -1,12 +1,12 @@
 <div class="container-full-width -dirty-white">
   <div class="container">
-    <div class="row resources">
+    <div class="row resources justify-content-around">
       {% for item in page.readmore %}
-        <div class="resources_category col-sm-6 col-md-4">
-          <h2 class="heading-b">{{item.headline}}</h2>
+        <div class="col-10 col-md-6 col-lg-4 col-xl-3">
+          <h2 class="heading-b mb-3">{{item.headline}}</h2>
           <ul class="list-unstyled">
             {% for link in item.links %}
-              <li class="resources_item" dir="ltr"><a class="resources_link" href="{{link.url}}" target="_blank">{{link.title}}</a></li>
+              <li class="resources_item"><a class="resources_link" href="{{link.url}}" target="_blank">{{link.title}}</a></li>
             {% endfor %}
           </ul>
         </div>

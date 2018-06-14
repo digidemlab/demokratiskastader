@@ -56,7 +56,7 @@ a:hover .card-title {
 
       color: $white;
       border-color: $link-color;
-      background-color: $grey-base;
+      background-color: $gray-base;
       text-decoration: none;
       -webkit-box-shadow: 0 2px 0 0 $link-color;
       -moz-box-shadow: 0 2px 0 0 $link-color;
@@ -69,7 +69,6 @@ a:hover .card-title {
   line-height: 1.50em;
   text-decoration: none;
   font-family: $font-family-sans-serif;
-  color: $black;
   margin: 0;
   font-weight: normal;
 
@@ -92,19 +91,20 @@ a:hover .card-title {
 
 .theme-listing {
   display: inline-block;
-  padding: 1rem 1.25rem 1rem;
+  padding: 0 2rem 1rem 0;
 
   &_item {
-    color: $black;
+    color: $gray-base;
 
     &:hover,
     &:focus,
     &:active {
-      color: $grey-base;
+      color: $gray-base;
     }
   }
 
   &_arrow {
+    // /assets/images/svg/icon-arrow.svg
     height: 0.625rem;
     width: 0.375rem;
   }
@@ -118,7 +118,7 @@ a:hover .card-title {
 }
 
 .about-link {
-  color: $black;
+  color: $gray-base;
   text-decoration: underline;
   font-weight: bold;
 }

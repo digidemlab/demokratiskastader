@@ -65,6 +65,12 @@
   @include media-breakpoint-up(md) {
     min-height: 34.5rem;
     height: 34.5rem;
+  }
 
+  &.-dirty-white {
+    @include media-breakpoint-up(lg) {
+      background-image: url("/assets/images/png/header_bg.png");
+      background-repeat: repeat-x;
+    }
   }
 }

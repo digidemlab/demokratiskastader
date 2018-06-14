@@ -6,13 +6,11 @@ layout: global
 
 {% include content/shortfacts.html %}
 
-<div class="container-full-width gradient {% if page.image %}-full{% else %}-border{% endif %}"></div>
+<div class="container-full-width image-block gradient -bg-{{page.categories[0]}} {% if page.image %}-full{% else %}-border{% endif %}"></div>
 
 <div class="container-full-width -dirty-white-light">
 
   {% include content/body-text.html %}
-
-  {% include content/theme-listing.html %}
 
 </div>
 

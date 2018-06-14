@@ -13,7 +13,7 @@
 }
 
 .hero-wrap {
-	background: $black;
+	background: $gray-base;
 	@include set-dark-bg-image('../images/jpg/hero-demokratiskastader-desktop.jpg');
 	background-size: cover;
 	background-position: center center;
@@ -21,7 +21,7 @@
 
 	@include media-breakpoint-down(sm) {
 		height: 30.5em;
-		background: $black;
+		background: $gray-base;
     @include set-dark-bg-image('../images/jpg/hero-demokratiskastader-mobile.jpg');
     background-position: center center;
 	}
