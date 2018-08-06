@@ -6,5 +6,6 @@ author: Sveriges Kommuner och Landsting
 excerpt: Guide med exempel och metoder för medborgardialog.
 themes:
 - Hitta nya former för medborgardeltagande
+- Samla in idéer och förslag
 ---
 
