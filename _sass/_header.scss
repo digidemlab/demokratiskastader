@@ -74,3 +74,11 @@
     }
   }
 }
+
+.page-header-content {
+  height: 86%;
+
+  @include media-breakpoint-up(lg) {
+    height: 79%;
+  }
+}

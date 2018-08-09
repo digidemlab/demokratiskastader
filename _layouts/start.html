@@ -6,7 +6,7 @@ layout: global
 
   {% include panel/menu.html %}
 
-  <div class="container h-75 hero-container">
+  <div class="container hero-container">
     <div class="row h-100 justify-content-center align-items-center">
       <div class="col-xl-8 col-lg-10 col-11 text-center hero-caption ">
         <h1 class="heading-hero">{{page.summary}}</h1>
@@ -92,7 +92,8 @@ layout: global
         </div>
       </div>
       <div class="row">
-        {% for post in site.resources limit:2 %}
+        {% assign resources=site.resources | reverse %}
+        {% for post in resources limit:2 %}
           {% include teaser/teaser_list.html class="-white" %}
         {% endfor %}
       </div>

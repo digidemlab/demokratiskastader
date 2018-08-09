@@ -25,7 +25,7 @@ layout: global
       </div>
     </div>
 
-      {% assign resources=site.resources | where:"themes", page.title %}
+      {% assign resources=site.resources | where:"themes", page.title | reverse %}
       {% if resources.size > 0 %}
       <div class="container -wide-margins pt-0">
 

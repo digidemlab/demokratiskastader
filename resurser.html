@@ -7,6 +7,7 @@ icon: "/assets/images/svg/icon-books.svg"
 background-class: "-light"
 ---
 
-{% for post in site.resources %}
+{% assign resources=site.resources | reverse %}
+{% for post in resources %}
   {% include teaser/teaser_list.html class="-white" %}
 {% endfor %}

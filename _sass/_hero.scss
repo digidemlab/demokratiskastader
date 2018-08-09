@@ -26,3 +26,11 @@
     background-position: center center;
 	}
 }
+
+.hero-container {
+	height: 85%;
+
+	@include media-breakpoint-up(lg) {
+		height: 75%;
+	}
+}
