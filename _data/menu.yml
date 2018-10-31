@@ -1,0 +1,16 @@
+main:
+  - title: Verktyg
+    url: /verktyg
+  - title: Metoder
+    url: /metoder
+#  - title: Karta
+#    url: /karta
+  - title: Blogg
+    url: https://medium.com/digidemlab/tagged/demokratiska-st%C3%A4der
+secondary:
+  - title: Om
+    url: /om
+  - title: Kontakt
+    url: /kontakt
+  - title: Resurser
+    url: /resurser

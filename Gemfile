@@ -1,7 +1,3 @@
-# frozen_string_literal: true
-
-source 'https://rubygems.org'
-
-gem 'jekyll', '~> 3.8.1'
-
-gem 'jekyll-seo-tag', '~> 2.4.0'
+source 'https://rubygems.org' do
+  gem 'github-pages', group: :jekyll_plugins
+end

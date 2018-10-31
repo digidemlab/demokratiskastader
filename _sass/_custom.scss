@@ -158,3 +158,23 @@ p {
     }
   }
 }
+
+// Responsive embed
+
+.embed-adapting {
+  &::before {
+    padding-top: percentage(3 / 2);
+  }
+
+  @include media-breakpoint-up(sm) {
+    &::before {
+      padding-top: percentage(1 / 1);
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    &::before {
+      padding-top: percentage(9 / 16);
+    }
+  }
+}

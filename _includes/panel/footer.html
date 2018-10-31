@@ -32,21 +32,19 @@
     <div class="row">
       <div class="col">
         <ul class="nav flex-column flex-lg-row justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/verktyg">Verktyg</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/metoder">Metoder</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/resurser">Resurser</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/om">Om Demokratiska Städer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{site.baseurl}}/kontakt">Kontakt</a>
-          </li>
+
+          {% for item in site.data.menu['main'] %}
+            <li class="nav-item">
+              <a class="nav-link" href="{% unless item.url contains 'http' %}{{site.baseurl}}{% endunless %}{{item.url}}">{{item.title}}</a>
+            </li>
+          {% endfor %}
+
+          {% for item in site.data.menu['secondary'] %}
+            <li class="nav-item">
+              <a class="nav-link" href="{% unless item.url contains 'http' %}{{site.baseurl}}{% endunless %}{{item.url}}">{{item.title}}</a>
+            </li>
+          {% endfor %}
+
         </ul>
 
         <p class="text-center">

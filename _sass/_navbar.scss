@@ -1,14 +1,22 @@
+
 .nav-item .nav-link {
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-weight: bold;
   white-space: nowrap;
-  color: $white;
 
   &:hover,
   &:active {
     text-decoration: underline;
   }
+}
+
+.main-menu .nav-item .nav-link,
+.footer .nav-item .nav-link {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: bold;
+  color: $white;
+}
+
+.main-menu .nav-item .nav-link {
 
   @include media-breakpoint-up(lg) {
     &.-black {
@@ -19,12 +27,39 @@
       }
     }
   }
+}
 
+.main-menu .nav-item .nav-link {
   @include media-breakpoint-down(md) {
     padding: 1.25rem 0;
   }
 }
 
+
+.secondary-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.secondary-menu .nav-item .nav-link {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875em;
+  line-height: 1.43em;
+  opacity: 0.8;
+
+  @include media-breakpoint-up(lg) {
+
+    &.-black {
+      color: $gray-base;
+
+      &:hover {
+        color: $gray-base;
+      }
+    }
+  }
+}
 
 .footer .nav-item .nav-link {
   padding: 2rem;

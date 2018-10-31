@@ -19,7 +19,22 @@ layout: global
 
 <main id="main">
 
-  <div class="container-full-width gradient -border"></div>
+  {% if page.announcement-text %}
+    <div class="container-full-width gradient">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-xl-8 text-center">
+            <div class="announcement">
+              <a href="{{page.announcement-url}}" class="read-more">{{page.announcement-text}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% else %}
+    <div class="container-full-width gradient -border"></div>
+  {% endif %}
+
 
   <div class="container">
 
