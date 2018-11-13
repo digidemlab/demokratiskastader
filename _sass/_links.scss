@@ -42,17 +42,19 @@ a:hover .card-title {
     transition: all 0.3s ease-in-out;
     vertical-align: middle;
 
+    background: url('../../assets/images/png/icon-arrow-big.png') no-repeat 94% 50%;
+
+
     @include media-breakpoint-down(sm) {
       padding: 2rem 1.25rem;
+      background-image: url('../../assets/images/png/icon-arrow-medium.png');
     }
 
     &:hover,
     &:focus,
     &:active {
 
-      .tool-listing_arrow {
-        filter: invert(100%);
-      }
+      background-image: url('../../assets/images/png/icon-arrow-big-white.png');
 
       color: $white;
       border-color: $link-color;
@@ -61,6 +63,10 @@ a:hover .card-title {
       -webkit-box-shadow: 0 2px 0 0 $link-color;
       -moz-box-shadow: 0 2px 0 0 $link-color;
       box-shadow: 0 2px 0 0 $link-color;
+
+      @include media-breakpoint-down(sm) {
+        background-image: url('../../assets/images/png/icon-arrow-medium-white.png');
+      }
     }
   }
 
@@ -91,7 +97,10 @@ a:hover .card-title {
 
 .theme-listing {
   display: inline-block;
-  padding: 0 2rem 1rem 0;
+  margin: 0.5rem 2rem 0.5rem 0;
+
+  padding: 0 0 0 1rem;
+  background: url('../../assets/images/png/icon-arrow.png') no-repeat 0 0.5rem;
 
   &_item {
     color: $gray-base;
@@ -101,12 +110,6 @@ a:hover .card-title {
     &:active {
       color: $gray-base;
     }
-  }
-
-  &_arrow {
-    // /assets/images/svg/icon-arrow.svg
-    height: 0.625rem;
-    width: 0.375rem;
   }
 }
 

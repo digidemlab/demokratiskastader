@@ -13,5 +13,11 @@
 
 
 .icon-header-side {
-  padding-left: 0.5rem;
+  width: 2.5rem;
+  margin-left: 0.5rem;
+
+  @include media-breakpoint-up(md) {
+    width: 3.5rem;
+    margin-left: 1rem;
+  }
 }
