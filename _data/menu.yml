@@ -8,8 +8,6 @@ main:
 secondary:
   - title: Om
     url: /om
-  - title: Kontakt
-    url: /kontakt
   - title: Resurser
     url: /resurser
   - title: Blogg

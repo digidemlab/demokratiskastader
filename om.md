@@ -16,4 +16,4 @@ Fördjupa er i forskningsrapporter, studier och användningsexempel från de mes
 
 **Digidem Lab** är ett oberoende och icke vinstdrivande labb för deltagande demokrati. Vi erbjuder nya verktyg och metoder för medborgardeltagande och samarbetar med Madrid stad för att utveckla världens största medborgarplattform Consul.
 
-Vill ni veta mer om metoder och verktyg för framtidens demokratiska städer? [Kontakta oss så berättar vi mer!](/kontakt)
+Vill ni veta mer om metoder och verktyg för framtidens demokratiska städer? [Kontakta oss så berättar vi mer!](https://digidemlab.org/contact)
